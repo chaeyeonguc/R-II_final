@@ -2,6 +2,7 @@ library(tidyverse)
 library(httr)
 library(jsonlite)
 library(WDI)
+library(readxl)
 library(styler)
 style_file("/Users/yeong/Documents/GitHub/R-II_final/data.R")
 
@@ -48,6 +49,14 @@ retrieve_raw_json <- function() {
 
 gdp_raw <- retrieve_raw_json()
 
+## Load the downloaded a shapefile for the world map (used for shinyapp afterwords)
+zipF <- paste0(data_path, "ne_10m_admin_0_countries.zip")
+unzip(zipF, exdir = data_path)
+world_map <- st_read(file.path(
+  data_path,
+  "ne_10m_admin_0_countries.shp"
+))
+
 # Data Cleaning
 ## Global Findex
 financial_inclusion_poor <- c(
@@ -70,7 +79,7 @@ global_findex_clean <- global_findex_raw %>%
 
 ## World Development Indicator
 wdi_clean <- wdi_raw %>%
-  select(country, year, income, SI.POV.DDAY) %>%
+  select(country, year, income, SI.POV.DDAY, latitude, longitude) %>%
   filter(!income %in% c("Aggregates")) %>%
   na.omit() %>%
   rename(poverty_headcount_ratio = SI.POV.DDAY) %>%
