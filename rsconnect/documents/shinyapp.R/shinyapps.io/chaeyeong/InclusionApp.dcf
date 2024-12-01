@@ -1,0 +1,13 @@
+name: InclusionApp
+title: InclusionApp
+username: chaeyeong
+account: chaeyeong
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13488600
+bundleId: 9442232
+url: https://chaeyeong.shinyapps.io/InclusionApp/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: data.R|model.R|README.md|staticplot.R|textprocess.R|writeup.md.Rmd
