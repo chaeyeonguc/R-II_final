@@ -106,4 +106,4 @@ combined <- combined %>%
   inner_join(gdp_clean, by = c("country code", "year"))
 
 # Write the final dataset
-write_csv(combined, paste0(data_path, "final.csv"))
+write_csv(combined, paste0(data_path, "inclusive_poverty_gdp.csv"))
