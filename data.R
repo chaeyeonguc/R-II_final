@@ -101,7 +101,7 @@ gdp_clean <- gdp_df_longer %>%
   filter(year >= 2014) %>%
   na.omit()
 
-# Merge datasets
+# Merge those datasets
 combined <- global_findex_clean %>%
   inner_join(wdi_clean, by = c(
     `country name` = "country",
@@ -114,5 +114,51 @@ gdp_clean$year <- as.numeric(gdp_clean$year)
 combined <- combined %>%
   inner_join(gdp_clean, by = c("country code", "year"))
 
-# Write the final dataset
+# Write and load the combined dataset
 write_csv(combined, paste0(data_path, "inclusive_poverty_gdp.csv"))
+inclusive_poverty_gdp <- read_csv(paste0(data_path, "inclusive_poverty_gdp.csv"))
+
+# Further exploratory data analysis for the research design 
+## Create a table to look at yearly country counts for the research design
+## to decide either using panel data or cross sectional data
+total_countries <- n_distinct(inclusive_poverty_gdp$`country name`)
+
+all_years_countries <- inclusive_poverty_gdp %>%
+  group_by(`country name`) %>%
+  summarise(year_count = n_distinct(year)) %>%
+  filter(year_count == 3) %>%
+  nrow()
+
+two_years_countries <- inclusive_poverty_gdp %>%
+  group_by(`country name`) %>%
+  summarise(year_count = n_distinct(year)) %>%
+  filter(year_count == 2) %>%
+  nrow()
+
+one_year_countries <- inclusive_poverty_gdp %>%
+  group_by(`country name`) %>%
+  summarise(year_count = n_distinct(year)) %>%
+  filter(year_count == 1) %>%
+  nrow()
+
+yearly_country_count <- inclusive_poverty_gdp %>%
+  group_by(year) %>%
+  summarise(
+    yearly_countries = n_distinct(`country name`)
+  ) %>%
+  mutate(
+    total_countries = total_countries,
+    countries_missing_years = total_countries - yearly_countries,
+    countries_all_years = all_years_countries,
+    countries_two_years_only = two_years_countries,
+    countries_one_year_only = one_year_countries
+  )
+view(yearly_country_count)
+
+# Prepare data for the model fitting (fixed-effect panel regression model)
+## Filter countries having 3 years
+three_years_only <- inclusive_poverty_gdp %>%
+  filter(n_distinct(year) == 3)
+
+## Write the filtered dataset
+write_csv(three_years_only, paste0(data_path, "inclusive_poverty_gdp_model.csv"))
