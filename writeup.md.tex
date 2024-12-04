@@ -1,0 +1,197 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={writeup},
+  pdfauthor={Chaeyeong},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{writeup}
+\author{Chaeyeong}
+\date{2024-11-30}
+
+\begin{document}
+\maketitle
+
+\hypertarget{research-design}{%
+\section{Research Design}\label{research-design}}
+
+Research Question How is financial inclusion (e.g., account ownership,
+saving, borrowing, and digital payments) related to poverty levels
+across countries with complete data for 2014, 2017, and 2021? Research
+Objectives To examine the correlation between financial inclusion
+variables and poverty levels. To control for economic factors like GDP
+and assess their moderating effect on poverty. To evaluate temporal
+changes in the relationship between financial inclusion and poverty over
+the three years. Key Variables Dependent Variable: Poverty Level:
+poverty\_headcount\_ratio Independent Variables (Financial Inclusion):
+per\_account\_ownership\_poor: Percentage of poor individuals with a
+financial account. per\_saving\_poor: Percentage of poor individuals
+saving in financial institutions. per\_borrowing\_poor: Percentage of
+poor individuals borrowing from financial institutions.
+per\_digital\_payment\_poor: Percentage of poor individuals making
+digital payments. Control Variables: Economic Growth: gdp
+(log-transformed for better interpretation). Empirical Strategy Model
+Specification: Use a fixed-effects (FE) panel regression model to
+control for unobserved, time-invariant country-specific characteristics
+(e.g., geography, culture). Where:
+
+\[
+\text{Poverty\_Headcount\_Ratio}_{it} = \beta_0 + \beta_1(\text{Account\_Ownership}_{it}) + \beta_2(\text{Savings}_{it}) + \beta_3(\text{Borrowing}_{it}) + \beta_4(\text{Digital\_Payments}_{it}) + \beta_5(\log(GDP_{it})) + \alpha_i + \gamma_t + \epsilon_{it}
+\] i: Country. t: Year. 𝛼𝑖: Country fixed effects. 𝛾𝑡: Year fixed
+effects. 𝜖𝑖𝑡: Error term
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Balanced Panel Data Analysis Focus your analysis on the 47 countries
+  with data for all three years. This design enables you to apply
+  fixed-effects or random-effects models for a balanced panel, which
+  provides robust insights into the temporal relationships between
+  financial inclusion variables and poverty across years. Advantages:
+  Robust temporal and cross-sectional comparisons. Controls for
+  country-level unobserved heterogeneity. Disadvantages: Reduces the
+  sample size, potentially limiting the generalizability of results.
+  Implementation:
+\end{enumerate}
+
+필터링하는 경우 (3개 연도 데이터로 제한): 장점: 균형 패널 데이터를
+사용해 분석이 간결하고 해석이 명확합니다. 모든 국가가 동일한 연도
+데이터를 가지므로 결과의 비교가 더 직관적입니다. 단점: 일부 국가의
+데이터를 제외하면 샘플 크기가 줄어들어 통계적 검정력이 약해질 수
+있습니다.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Overall Model Insights Dependent Variable: Poverty Headcount Ratio
+  (poverty rate).
+\end{enumerate}
+
+Independent Variables:
+
+Financial inclusion indicators: account ownership, savings, borrowing,
+digital payments. Economic growth variable: Real GDP Growth.
+Observations: A total of 141 data points.
+
+R² (Explained Variance):
+
+The model explains 17.2\% of the variance in poverty rates. Adjusted R²
+is negative (-0.302), indicating the model struggles to explain the data
+when accounting for the number of predictors. Conclusion: The model has
+low explanatory power, suggesting limitations in variable selection or
+data structure. F-Statistic: 3.703*** (p \textless{} 0.01):
+
+The overall model is statistically significant, indicating that at least
+one independent variable is related to the dependent variable. 2.
+Interpretation of Individual Variables (a) Account Ownership (Income,
+poorest 40\%) Coefficient: 0.505 Standard Error: (3.344) p-value: Not
+significant. Interpretation: Account ownership for the poorest 40\%
+shows a positive relationship with poverty rates (poverty increases as
+account ownership rises), but the result is not statistically
+significant. No robust conclusion can be drawn about the effect of
+account ownership on poverty. (b) Savings (Income, poorest 40\%)
+Coefficient: 0.757 Standard Error: (1.200) p-value: Not significant.
+Interpretation: Savings behavior shows a small positive relationship
+with poverty rates, but this result is not statistically significant.
+Savings activity does not have a clear impact on reducing poverty in
+this dataset. (c) Borrowing (Income, poorest 40\%) Coefficient:
+3.524\emph{ Standard Error: (1.807) p-value: }p \textless{} 0.1
+(significant). Interpretation: Borrowing is positively and significantly
+associated with poverty rates, suggesting that an increase in borrowing
+correlates with an increase in poverty. This could indicate that
+borrowing is not being used effectively or that it leads to higher debt
+burdens among the poorest populations. (d) Digital Payments (Income,
+poorest 40\%) Coefficient: -3.146 Standard Error: (2.595) p-value: Not
+significant. Interpretation: Digital payment use shows a weak negative
+relationship with poverty rates (poverty decreases as digital payments
+rise), but the result is not statistically significant. The impact of
+digital payments on poverty reduction is unclear. (e) Real GDP Growth
+Coefficient: -0.004 Standard Error: (0.034) p-value: Not significant.
+Interpretation: Economic growth shows virtually no relationship with
+poverty rates and is statistically insignificant. This suggests that
+economic growth alone is insufficient to address poverty in the studied
+context. 3. Key Conclusions Significant Variable:
+
+Borrowing behavior (Borrowing (Income, poorest 40\%)) is significantly
+associated with poverty increases, indicating potential issues with debt
+management among the poorest groups. Non-significant Variables:
+
+Other financial inclusion variables (account ownership, savings, digital
+payments) and GDP growth do not show significant relationships with
+poverty. This might reflect data limitations or that these factors have
+limited direct effects on poverty rates in the studied context. Model's
+Explanatory Power:
+
+The low R² value suggests that the model does not sufficiently capture
+the drivers of poverty. Including additional variables such as
+education, infrastructure, or social policies could improve explanatory
+power. Policy Implications:
+
+Effective borrowing management and financial education programs could
+help alleviate poverty among the poorest groups. Other financial
+inclusion activities might need complementary policies to be impactful.
+
+\end{document}

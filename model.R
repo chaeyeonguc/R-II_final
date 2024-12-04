@@ -1,54 +1,43 @@
 library(tidyverse)
+library(plm)
+library(stargazer)
+library(lmtest)
 library(styler)
 style_file("/Users/yeong/Documents/GitHub/R-II_final/data.R")
 
-# Load the final dataset
-inclusive_poverty_gdp <- read_csv("data/inclusive_poverty_gdp.csv")
+view(data)
 
-# For research design, create a table summarizing yearly country counts
-# to decide either using panel data or cross sectional data
+# Load the prepared dataset
+data <- read_csv("data/inclusive_poverty_gdp_model.csv")
 
-## the total number of countries
-total_countries <- n_distinct(inclusive_poverty_gdp$`country name`)
+# Model fit (Fixed Effects Model)
+fe_model <- plm(
+  poverty_headcount_ratio ~ per_account_ownership_poor + per_saving_poor + 
+    per_borrowing_poor + per_digital_payment_poor + gdp,
+  data = data,
+  index = c("country.name", "year"),  
+  model = "within"
+)
 
-# the number of countries by the number of year data each country has
-all_years_countries <- inclusive_poverty_gdp %>%
-  group_by(`country name`) %>%
-  summarise(year_count = n_distinct(year)) %>%
-  filter(year_count == 3) %>%
-  nrow()
+# Cluster standard error
+clustered_se <- vcovHC(fe_model, method = "arellano", type = "HC0", cluster = "group")
+se_clustered <- sqrt(diag(clustered_se))
 
-two_years_countries <- inclusive_poverty_gdp %>%
-  group_by(`country name`) %>%
-  summarise(year_count = n_distinct(year)) %>%
-  filter(year_count == 2) %>%
-  nrow()
-
-one_year_countries <- inclusive_poverty_gdp %>%
-  group_by(`country name`) %>%
-  summarise(year_count = n_distinct(year)) %>%
-  filter(year_count == 1) %>%
-  nrow()
-
-## count yearly country 
-yearly_country_count <- inclusive_poverty_gdp %>%
-  group_by(year) %>%
-  summarise(
-    yearly_countries = n_distinct(`country name`)
-  ) %>%
-  mutate(
-    total_countries = total_countries,
-    countries_missing_years = total_countries - yearly_countries,
-    countries_all_years = all_years_countries,
-    countries_two_years_only = two_years_countries,
-    countries_one_year_only = one_year_countries
-  )
-view(yearly_country_count)
-
-
-# Data cleaning to test fixed effect model fit 
-## filter countries having 3 years
-three_years_only <- inclusive_poverty_gdp %>%
-  filter(n_distinct(year) == 3)
-##
-
+# Create a summary table
+stargazer(
+  fe_model, 
+  se = list(se_clustered),
+  type = "html",
+  out = "model_results.html",
+  dep.var.labels = "Poverty Headcount Ratio", 
+  covariate.labels = c(
+    "Account Ownership (Income, poorest 40% (% ages 15+))", 
+    "Savings (Income, poorest 40% (% ages 15+))", 
+    "Borrowing (Income, poorest 40% (% ages 15+))", 
+    "Digital Payments (Income, poorest 40% (% ages 15+))", 
+    "Real GDP Growth"
+  ),
+  title = "Fixed Effects Model with Clustered Standard Errors",
+  align = TRUE,
+  no.space = TRUE
+)

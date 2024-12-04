@@ -118,7 +118,7 @@ combined <- combined %>%
 write_csv(combined, paste0(data_path, "inclusive_poverty_gdp.csv"))
 inclusive_poverty_gdp <- read_csv(paste0(data_path, "inclusive_poverty_gdp.csv"))
 
-# Further exploratory data analysis for the research design 
+# Further exploratory data analysis for the research design
 ## Create a table to look at yearly country counts for the research design
 ## to decide either using panel data or cross sectional data
 total_countries <- n_distinct(inclusive_poverty_gdp$`country name`)
@@ -158,6 +158,7 @@ view(yearly_country_count)
 # Prepare data for the model fitting (fixed-effect panel regression model)
 ## Filter countries having 3 years
 three_years_only <- inclusive_poverty_gdp %>%
+  group_by(`country name`) %>%
   filter(n_distinct(year) == 3)
 
 ## Write the filtered dataset

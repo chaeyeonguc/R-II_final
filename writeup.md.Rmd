@@ -2,7 +2,10 @@
 title: "writeup"
 author: "Chaeyeong"
 date: "2024-11-30"
-output: html_document
+output:
+  word_document: default
+  html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -26,15 +29,14 @@ per_borrowing_poor: Percentage of poor individuals borrowing from financial inst
 per_digital_payment_poor: Percentage of poor individuals making digital payments.
 Control Variables:
 Economic Growth: gdp (log-transformed for better interpretation).
-Year Effects: Dummy variables for 2014, 2017, and 2021 to control for time trends.
 Empirical Strategy
 Model Specification:
 Use a fixed-effects (FE) panel regression model to control for unobserved, time-invariant country-specific characteristics (e.g., geography, culture).
 Where:
 
-
-poverty_headcount_ratioit = β0 +β1(per_account_ownership_poorit)+β2 (per_saving_poori)+ β3(per_borrowing_poorit)+β4(per_digital_payment_poorit)+
-β5(gdpit)+αi+γt+ϵit
+$$
+\text{Poverty\_Headcount\_Ratio}_{it} = \beta_0 + \beta_1(\text{Account\_Ownership}_{it}) + \beta_2(\text{Savings}_{it}) + \beta_3(\text{Borrowing}_{it}) + \beta_4(\text{Digital\_Payments}_{it}) + \beta_5(\text{GDP}_{it}) + \alpha_i + \gamma_t + \epsilon_{it}
+$$
 i: Country.
 t: Year.
 𝛼𝑖: Country fixed effects.
@@ -50,6 +52,82 @@ Controls for country-level unobserved heterogeneity.
 Disadvantages:
 Reduces the sample size, potentially limiting the generalizability of results.
 Implementation:
+
+필터링하는 경우 (3개 연도 데이터로 제한):
+장점:
+균형 패널 데이터를 사용해 분석이 간결하고 해석이 명확합니다.
+모든 국가가 동일한 연도 데이터를 가지므로 결과의 비교가 더 직관적입니다.
+단점:
+일부 국가의 데이터를 제외하면 샘플 크기가 줄어들어 통계적 검정력이 약해질 수 있습니다.
+
+1. Overall Model Insights
+Dependent Variable: Poverty Headcount Ratio (poverty rate).
+
+Independent Variables:
+
+Financial inclusion indicators: account ownership, savings, borrowing, digital payments.
+Economic growth variable: Real GDP Growth.
+Observations: A total of 141 data points.
+
+R² (Explained Variance):
+
+The model explains 17.2% of the variance in poverty rates.
+Adjusted R² is negative (-0.302), indicating the model struggles to explain the data when accounting for the number of predictors.
+Conclusion: The model has low explanatory power, suggesting limitations in variable selection or data structure.
+F-Statistic: 3.703*** (p < 0.01):
+
+The overall model is statistically significant, indicating that at least one independent variable is related to the dependent variable.
+2. Interpretation of Individual Variables
+(a) Account Ownership (Income, poorest 40%)
+Coefficient: 0.505
+Standard Error: (3.344)
+p-value: Not significant.
+Interpretation:
+Account ownership for the poorest 40% shows a positive relationship with poverty rates (poverty increases as account ownership rises), but the result is not statistically significant.
+No robust conclusion can be drawn about the effect of account ownership on poverty.
+(b) Savings (Income, poorest 40%)
+Coefficient: 0.757
+Standard Error: (1.200)
+p-value: Not significant.
+Interpretation:
+Savings behavior shows a small positive relationship with poverty rates, but this result is not statistically significant.
+Savings activity does not have a clear impact on reducing poverty in this dataset.
+(c) Borrowing (Income, poorest 40%)
+Coefficient: 3.524*
+Standard Error: (1.807)
+p-value: *p < 0.1 (significant).
+Interpretation:
+Borrowing is positively and significantly associated with poverty rates, suggesting that an increase in borrowing correlates with an increase in poverty.
+This could indicate that borrowing is not being used effectively or that it leads to higher debt burdens among the poorest populations.
+(d) Digital Payments (Income, poorest 40%)
+Coefficient: -3.146
+Standard Error: (2.595)
+p-value: Not significant.
+Interpretation:
+Digital payment use shows a weak negative relationship with poverty rates (poverty decreases as digital payments rise), but the result is not statistically significant.
+The impact of digital payments on poverty reduction is unclear.
+(e) Real GDP Growth
+Coefficient: -0.004
+Standard Error: (0.034)
+p-value: Not significant.
+Interpretation:
+Economic growth shows virtually no relationship with poverty rates and is statistically insignificant.
+This suggests that economic growth alone is insufficient to address poverty in the studied context.
+3. Key Conclusions
+Significant Variable:
+
+Borrowing behavior (Borrowing (Income, poorest 40%)) is significantly associated with poverty increases, indicating potential issues with debt management among the poorest groups.
+Non-significant Variables:
+
+Other financial inclusion variables (account ownership, savings, digital payments) and GDP growth do not show significant relationships with poverty.
+This might reflect data limitations or that these factors have limited direct effects on poverty rates in the studied context.
+Model’s Explanatory Power:
+
+The low R² value suggests that the model does not sufficiently capture the drivers of poverty. Including additional variables such as education, infrastructure, or social policies could improve explanatory power.
+Policy Implications:
+
+Effective borrowing management and financial education programs could help alleviate poverty among the poorest groups.
+Other financial inclusion activities might need complementary policies to be impactful.
 
  
 

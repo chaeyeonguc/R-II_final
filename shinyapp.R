@@ -1,5 +1,4 @@
 library(tidyverse)
-library(sf)
 library(shiny)
 library(plotly)
 

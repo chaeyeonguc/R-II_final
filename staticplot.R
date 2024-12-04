@@ -1,9 +1,15 @@
 library(tidyverse)
+library(sf)
 library(styler)
 style_file("/Users/yeong/Documents/GitHub/R-II_final/staticplot.R")
 
 inclusive_poverty_gdp <- read_csv("data/inclusive_poverty_gdp.csv")
-colnames(inclusive_poverty_gdp)
+
+# Making the data frame longer and create new variable for plotting
+inclusive_poverty_gdp_long <- inclusive_poverty_gdp %>%
+  pivot_longer(cols = starts_with("per_"), names_to = "metric", values_to = "value") %>%
+  group_by(`country name`) %>%
+  mutate(avg_value = mean(value, na.rm = TRUE))
 
 # Creating a plot estimating financial inclusion by poverty headcount ratio across years
 plot_financial_inclusion_by_poverty <- inclusive_poverty_gdp_long %>%
@@ -37,14 +43,14 @@ world_map <- st_read("data/ne_10m_admin_0_countries.shp")
 inclusive_poverty_gdp_sf <- st_as_sf(inclusive_poverty_gdp_long,
   coords = c("longitude", "latitude"),
   crs = st_crs(world_map), remove = FALSE
-)
+) 
 
 choropleth_financial_inclusion <- ggplot() +
   geom_sf(data = world_map) +
-  geom_sf(data = inclusive_poverty_gdp_sf, aes(fill = value), shape = 21, size = 2) +
+  geom_sf(data = inclusive_poverty_gdp_sf, aes(fill = avg_value), shape = 21, size = 2) +
   scale_fill_gradient(low = "white", high = "blue") +
   labs(
-    title = "Choropleth for Financial Inclusion in the World",
+    title = "Choropleth for Average Financial Inclusion in the World",
     fill = "Percent",
     x = "Longitude", y = "Latitude",
     caption = "Source: World Bank"
