@@ -117,7 +117,6 @@ ui_2 <- fluidPage(
 
 ## Define server
 server_2 <- function(input, output, session) {
-  
   ### Extract 10 keywords the most used
   keywords <- parsed %>%
     filter(!lemma %in% stop_words$word, !upos %in% c("PUNCT", "CCONJ")) %>%
@@ -126,10 +125,10 @@ server_2 <- function(input, output, session) {
     count(sort = TRUE) %>%
     head(n = 10) %>%
     pull(lemma)
-  
+
   # Populate keyword choices
   updateSelectInput(inputId = "keyword_input", choices = keywords)
-  
+
   ### Reactive filtered data based on user inputted keyword
   filtered <- reactive({
     req(input$keyword_input)
@@ -139,62 +138,65 @@ server_2 <- function(input, output, session) {
     )
     data
   })
-  
+
   ### Reactive keyword-specific sentiment
   sentiment <- reactive({
     req(filtered())
-    
+
     filtered_data <- filtered() %>%
       mutate(
-        doc_id = as.character(doc_id),                              
-        page_number = as.numeric(gsub("[^0-9]", "", doc_id))       
+        doc_id = as.character(doc_id),
+        page_number = as.numeric(gsub("[^0-9]", "", doc_id))
       ) %>%
-      arrange(page_number) %>%                                      
-      distinct(doc_id, .keep_all = TRUE)                            
-    
+      arrange(page_number) %>%
+      distinct(doc_id, .keep_all = TRUE)
+
     sentiment_afinn <- get_sentiments("afinn") %>% rename(afinn = value)
-    
+
     # Extract dependency of keyword and combine altogether
     children <- filtered_data %>%
       inner_join(
         parsed %>% select(doc_id, head_token_id, lemma),
         by = c("token_id" = "head_token_id", "doc_id" = "doc_id")
       ) %>%
-      select(doc_id, page_number, lemma.y) %>% 
+      select(doc_id, page_number, lemma.y) %>%
       rename(word = lemma.y)
-    
+
     parents <- filtered_data %>%
       inner_join(
         parsed %>% select(doc_id, token_id, lemma),
         by = c("head_token_id" = "token_id", "doc_id" = "doc_id")
       ) %>%
-      select(doc_id, page_number, lemma.y) %>% 
+      select(doc_id, page_number, lemma.y) %>%
       rename(word = lemma.y)
-    
+
     combined <- rbind(children, parents) %>%
       left_join(sentiment_afinn, by = "word") %>%
       group_by(doc_id, page_number) %>%
       summarise(afinn = mean(afinn, na.rm = TRUE)) %>%
       ungroup()
-    
+
     combined
   })
-  
+
   output$dependency_plot <- renderPlotly({
     req(sentiment())
+
     # Adjust page number by starting from 2 to be aligned with the paper's page number
+    # and omit the reference pages
     sentiment_data <- sentiment() %>%
       mutate(
         page_number = page_number - min(page_number[-1]) + 1
-      )
-    
+      ) %>%
+      filter(page_number <= 59)
+
     ggplotly(
       ggplot(sentiment_data, aes(x = page_number, y = afinn)) +
         geom_line(color = "steelblue", size = 1) +
         geom_point(aes(color = afinn), size = 3) +
         scale_x_continuous(
-          breaks = seq(1, max(sentiment_data$page_number, na.rm = TRUE), by = 5),  # Every page number
-          labels = seq(1, max(sentiment_data$page_number, na.rm = TRUE), by = 5)  # Match breaks
+          breaks = seq(1, 59, by = 5),
+          labels = seq(1, 59, by = 5)
         ) +
         scale_color_gradient2(
           low = "red", mid = "white", high = "blue", midpoint = 0,
@@ -208,7 +210,7 @@ server_2 <- function(input, output, session) {
         ) +
         theme_minimal() +
         theme(
-          axis.text.x = element_text(angle = 45, hjust = 1) 
+          axis.text.x = element_text(angle = 45, hjust = 1)
         )
     )
   })
