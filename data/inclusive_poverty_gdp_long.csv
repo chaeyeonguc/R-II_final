@@ -1,0 +1,797 @@
+country name,country code,year,income group,poverty_headcount_ratio,latitude,longitude,gdp,metric,value,avg_value
+Albania,ALB,2014,Upper middle income,1,41.3317,19.8172,1.8,per_account_ownership_poor,0.23890095949172974,0.2884403094649315
+Albania,ALB,2014,Upper middle income,1,41.3317,19.8172,1.8,per_saving_poor,0.23704764246940613,0.2884403094649315
+Albania,ALB,2014,Upper middle income,1,41.3317,19.8172,1.8,per_borrowing_poor,0.6657077670097351,0.2884403094649315
+Albania,ALB,2014,Upper middle income,1,41.3317,19.8172,1.8,per_digital_payment_poor,0.14551080763339996,0.2884403094649315
+Albania,ALB,2017,Upper middle income,0.4,41.3317,19.8172,3.8,per_account_ownership_poor,0.22751028835773468,0.2884403094649315
+Albania,ALB,2017,Upper middle income,0.4,41.3317,19.8172,3.8,per_saving_poor,0.1676418036222458,0.2884403094649315
+Albania,ALB,2017,Upper middle income,0.4,41.3317,19.8172,3.8,per_borrowing_poor,0.4940866231918335,0.2884403094649315
+Albania,ALB,2017,Upper middle income,0.4,41.3317,19.8172,3.8,per_digital_payment_poor,0.131116583943367,0.2884403094649315
+Argentina,ARG,2014,Upper middle income,0.6,-34.6118,-58.4173,-2.5,per_account_ownership_poor,0.446274995803833,0.36337292939424515
+Argentina,ARG,2014,Upper middle income,0.6,-34.6118,-58.4173,-2.5,per_saving_poor,0.1501079648733139,0.36337292939424515
+Argentina,ARG,2014,Upper middle income,0.6,-34.6118,-58.4173,-2.5,per_borrowing_poor,0.20965805649757385,0.36337292939424515
+Argentina,ARG,2014,Upper middle income,0.6,-34.6118,-58.4173,-2.5,per_digital_payment_poor,0.34213799238204956,0.36337292939424515
+Argentina,ARG,2017,Upper middle income,0.6,-34.6118,-58.4173,2.8,per_account_ownership_poor,0.3806127905845642,0.36337292939424515
+Argentina,ARG,2017,Upper middle income,0.6,-34.6118,-58.4173,2.8,per_saving_poor,0.21215063333511353,0.36337292939424515
+Argentina,ARG,2017,Upper middle income,0.6,-34.6118,-58.4173,2.8,per_borrowing_poor,0.29473423957824707,0.36337292939424515
+Argentina,ARG,2017,Upper middle income,0.6,-34.6118,-58.4173,2.8,per_digital_payment_poor,0.31237298250198364,0.36337292939424515
+Argentina,ARG,2021,Upper middle income,0.9,-34.6118,-58.4173,10.4,per_account_ownership_poor,0.6523481607437134,0.36337292939424515
+Argentina,ARG,2021,Upper middle income,0.9,-34.6118,-58.4173,10.4,per_saving_poor,0.24908514320850372,0.36337292939424515
+Argentina,ARG,2021,Upper middle income,0.9,-34.6118,-58.4173,10.4,per_borrowing_poor,0.5206157565116882,0.36337292939424515
+Argentina,ARG,2021,Upper middle income,0.9,-34.6118,-58.4173,10.4,per_digital_payment_poor,0.5903764367103577,0.36337292939424515
+Armenia,ARM,2014,Upper middle income,1.4,40.1596,44.509,3.6,per_account_ownership_poor,0.11092925816774368,0.32770089494685334
+Armenia,ARM,2014,Upper middle income,1.4,40.1596,44.509,3.6,per_saving_poor,0.15782742202281952,0.32770089494685334
+Armenia,ARM,2014,Upper middle income,1.4,40.1596,44.509,3.6,per_borrowing_poor,0.49671226739883423,0.32770089494685334
+Armenia,ARM,2014,Upper middle income,1.4,40.1596,44.509,3.6,per_digital_payment_poor,0.07234072685241699,0.32770089494685334
+Armenia,ARM,2017,Upper middle income,0.8,40.1596,44.509,7.5,per_account_ownership_poor,0.3441927433013916,0.32770089494685334
+Armenia,ARM,2017,Upper middle income,0.8,40.1596,44.509,7.5,per_saving_poor,0.2544056475162506,0.32770089494685334
+Armenia,ARM,2017,Upper middle income,0.8,40.1596,44.509,7.5,per_borrowing_poor,0.54020094871521,0.32770089494685334
+Armenia,ARM,2017,Upper middle income,0.8,40.1596,44.509,7.5,per_digital_payment_poor,0.27328211069107056,0.32770089494685334
+Armenia,ARM,2021,Upper middle income,0.5,40.1596,44.509,5.8,per_account_ownership_poor,0.4545014500617981,0.32770089494685334
+Armenia,ARM,2021,Upper middle income,0.5,40.1596,44.509,5.8,per_saving_poor,0.3062095642089844,0.32770089494685334
+Armenia,ARM,2021,Upper middle income,0.5,40.1596,44.509,5.8,per_borrowing_poor,0.5634752511978149,0.32770089494685334
+Armenia,ARM,2021,Upper middle income,0.5,40.1596,44.509,5.8,per_digital_payment_poor,0.3583333492279053,0.32770089494685334
+Australia,AUS,2014,High income,0.5,-35.282,149.129,2.6,per_account_ownership_poor,1,0.8503113836050034
+Australia,AUS,2014,High income,0.5,-35.282,149.129,2.6,per_saving_poor,0.7093026638031006,0.8503113836050034
+Australia,AUS,2014,High income,0.5,-35.282,149.129,2.6,per_borrowing_poor,0.7115225791931152,0.8503113836050034
+Australia,AUS,2014,High income,0.5,-35.282,149.129,2.6,per_digital_payment_poor,0.9804202914237976,0.8503113836050034
+Austria,AUT,2014,High income,0.2,48.2201,16.3798,0.7,per_account_ownership_poor,0.9627383947372437,0.8226584047079086
+Austria,AUT,2014,High income,0.2,48.2201,16.3798,0.7,per_saving_poor,0.7100965976715088,0.8226584047079086
+Austria,AUT,2014,High income,0.2,48.2201,16.3798,0.7,per_borrowing_poor,0.5501272678375244,0.8226584047079086
+Austria,AUT,2014,High income,0.2,48.2201,16.3798,0.7,per_digital_payment_poor,0.9256731271743774,0.8226584047079086
+Austria,AUT,2017,High income,0.3,48.2201,16.3798,2.3,per_account_ownership_poor,0.979066014289856,0.8226584047079086
+Austria,AUT,2017,High income,0.3,48.2201,16.3798,2.3,per_saving_poor,0.7102891206741333,0.8226584047079086
+Austria,AUT,2017,High income,0.3,48.2201,16.3798,2.3,per_borrowing_poor,0.5866893529891968,0.8226584047079086
+Austria,AUT,2017,High income,0.3,48.2201,16.3798,2.3,per_digital_payment_poor,0.9387586116790771,0.8226584047079086
+Austria,AUT,2021,High income,0.5,48.2201,16.3798,4.2,per_account_ownership_poor,1,0.8226584047079086
+Austria,AUT,2021,High income,0.5,48.2201,16.3798,4.2,per_saving_poor,0.936892032623291,0.8226584047079086
+Austria,AUT,2021,High income,0.5,48.2201,16.3798,4.2,per_borrowing_poor,0.583687424659729,0.8226584047079086
+Austria,AUT,2021,High income,0.5,48.2201,16.3798,4.2,per_digital_payment_poor,0.9878829121589661,0.8226584047079086
+Belarus,BLR,2014,Upper middle income,0,53.9678,27.5766,1.7,per_account_ownership_poor,0.6655757427215576,0.5782077684998512
+Belarus,BLR,2014,Upper middle income,0,53.9678,27.5766,1.7,per_saving_poor,0.4603208005428314,0.5782077684998512
+Belarus,BLR,2014,Upper middle income,0,53.9678,27.5766,1.7,per_borrowing_poor,0.47995391488075256,0.5782077684998512
+Belarus,BLR,2014,Upper middle income,0,53.9678,27.5766,1.7,per_digital_payment_poor,0.6106193661689758,0.5782077684998512
+Belarus,BLR,2017,Upper middle income,0,53.9678,27.5766,2.5,per_account_ownership_poor,0.7441338896751404,0.5782077684998512
+Belarus,BLR,2017,Upper middle income,0,53.9678,27.5766,2.5,per_saving_poor,0.42595767974853516,0.5782077684998512
+Belarus,BLR,2017,Upper middle income,0,53.9678,27.5766,2.5,per_borrowing_poor,0.509907066822052,0.5782077684998512
+Belarus,BLR,2017,Upper middle income,0,53.9678,27.5766,2.5,per_digital_payment_poor,0.7291936874389648,0.5782077684998512
+Belgium,BEL,2014,High income,0.1,50.8371,4.36761,1.6,per_account_ownership_poor,0.9860554337501526,0.7804189423720042
+Belgium,BEL,2014,High income,0.1,50.8371,4.36761,1.6,per_saving_poor,0.6983939409255981,0.7804189423720042
+Belgium,BEL,2014,High income,0.1,50.8371,4.36761,1.6,per_borrowing_poor,0.5690822601318359,0.7804189423720042
+Belgium,BEL,2014,High income,0.1,50.8371,4.36761,1.6,per_digital_payment_poor,0.9512837529182434,0.7804189423720042
+Belgium,BEL,2017,High income,0.1,50.8371,4.36761,1.6,per_account_ownership_poor,0.9885673522949219,0.7804189423720042
+Belgium,BEL,2017,High income,0.1,50.8371,4.36761,1.6,per_saving_poor,0.634556770324707,0.7804189423720042
+Belgium,BEL,2017,High income,0.1,50.8371,4.36761,1.6,per_borrowing_poor,0.5211082100868225,0.7804189423720042
+Belgium,BEL,2017,High income,0.1,50.8371,4.36761,1.6,per_digital_payment_poor,0.9625316262245178,0.7804189423720042
+Belgium,BEL,2021,High income,0,50.8371,4.36761,6.9,per_account_ownership_poor,0.9793588519096375,0.7804189423720042
+Belgium,BEL,2021,High income,0,50.8371,4.36761,6.9,per_saving_poor,0.5963815450668335,0.7804189423720042
+Belgium,BEL,2021,High income,0,50.8371,4.36761,6.9,per_borrowing_poor,0.5235973000526428,0.7804189423720042
+Belgium,BEL,2021,High income,0,50.8371,4.36761,6.9,per_digital_payment_poor,0.9541102647781372,0.7804189423720042
+Benin,BEN,2021,Lower middle income,12.7,6.4779,2.6323,7.2,per_account_ownership_poor,0.4119172692298889,0.402261383831501
+Benin,BEN,2021,Lower middle income,12.7,6.4779,2.6323,7.2,per_saving_poor,0.40075862407684326,0.402261383831501
+Benin,BEN,2021,Lower middle income,12.7,6.4779,2.6323,7.2,per_borrowing_poor,0.45853790640830994,0.402261383831501
+Benin,BEN,2021,Lower middle income,12.7,6.4779,2.6323,7.2,per_digital_payment_poor,0.3378317356109619,0.402261383831501
+Bolivia,BOL,2014,Lower middle income,4.3,-13.9908,-66.1936,5.5,per_account_ownership_poor,0.2591746151447296,0.3918972499668598
+Bolivia,BOL,2014,Lower middle income,4.3,-13.9908,-66.1936,5.5,per_saving_poor,0.5410952568054199,0.3918972499668598
+Bolivia,BOL,2014,Lower middle income,4.3,-13.9908,-66.1936,5.5,per_borrowing_poor,0.31672918796539307,0.3918972499668598
+Bolivia,BOL,2014,Lower middle income,4.3,-13.9908,-66.1936,5.5,per_digital_payment_poor,0.17105047404766083,0.3918972499668598
+Bolivia,BOL,2017,Lower middle income,4.9,-13.9908,-66.1936,4.2,per_account_ownership_poor,0.4282783269882202,0.3918972499668598
+Bolivia,BOL,2017,Lower middle income,4.9,-13.9908,-66.1936,4.2,per_saving_poor,0.45968160033226013,0.3918972499668598
+Bolivia,BOL,2017,Lower middle income,4.9,-13.9908,-66.1936,4.2,per_borrowing_poor,0.406292587518692,0.3918972499668598
+Bolivia,BOL,2017,Lower middle income,4.9,-13.9908,-66.1936,4.2,per_digital_payment_poor,0.2959436774253845,0.3918972499668598
+Bolivia,BOL,2021,Lower middle income,2,-13.9908,-66.1936,6.1,per_account_ownership_poor,0.5628764629364014,0.3918972499668598
+Bolivia,BOL,2021,Lower middle income,2,-13.9908,-66.1936,6.1,per_saving_poor,0.43258553743362427,0.3918972499668598
+Bolivia,BOL,2021,Lower middle income,2,-13.9908,-66.1936,6.1,per_borrowing_poor,0.43347159028053284,0.3918972499668598
+Bolivia,BOL,2021,Lower middle income,2,-13.9908,-66.1936,6.1,per_digital_payment_poor,0.395587682723999,0.3918972499668598
+Brazil,BRA,2014,Upper middle income,3.3,-15.7801,-47.9292,0.5,per_account_ownership_poor,0.5722804665565491,0.46691832194725674
+Brazil,BRA,2014,Upper middle income,3.3,-15.7801,-47.9292,0.5,per_saving_poor,0.19135427474975586,0.46691832194725674
+Brazil,BRA,2014,Upper middle income,3.3,-15.7801,-47.9292,0.5,per_borrowing_poor,0.29661378264427185,0.46691832194725674
+Brazil,BRA,2014,Upper middle income,3.3,-15.7801,-47.9292,0.5,per_digital_payment_poor,0.5077205896377563,0.46691832194725674
+Brazil,BRA,2017,Upper middle income,5.3,-15.7801,-47.9292,1.3,per_account_ownership_poor,0.5662524104118347,0.46691832194725674
+Brazil,BRA,2017,Upper middle income,5.3,-15.7801,-47.9292,1.3,per_saving_poor,0.25168919563293457,0.46691832194725674
+Brazil,BRA,2017,Upper middle income,5.3,-15.7801,-47.9292,1.3,per_borrowing_poor,0.3288562595844269,0.46691832194725674
+Brazil,BRA,2017,Upper middle income,5.3,-15.7801,-47.9292,1.3,per_digital_payment_poor,0.4323986768722534,0.46691832194725674
+Brazil,BRA,2021,Upper middle income,5.8,-15.7801,-47.9292,4.8,per_account_ownership_poor,0.8197842836380005,0.46691832194725674
+Brazil,BRA,2021,Upper middle income,5.8,-15.7801,-47.9292,4.8,per_saving_poor,0.3953920304775238,0.46691832194725674
+Brazil,BRA,2021,Upper middle income,5.8,-15.7801,-47.9292,4.8,per_borrowing_poor,0.5181403160095215,0.46691832194725674
+Brazil,BRA,2021,Upper middle income,5.8,-15.7801,-47.9292,4.8,per_digital_payment_poor,0.7225375771522522,0.46691832194725674
+Bulgaria,BGR,2014,Upper middle income,1.7,42.7105,23.3238,0.9,per_account_ownership_poor,0.4936285614967346,0.4408663014570872
+Bulgaria,BGR,2014,Upper middle income,1.7,42.7105,23.3238,0.9,per_saving_poor,0.16277632117271423,0.4408663014570872
+Bulgaria,BGR,2014,Upper middle income,1.7,42.7105,23.3238,0.9,per_borrowing_poor,0.3913877308368683,0.4408663014570872
+Bulgaria,BGR,2014,Upper middle income,1.7,42.7105,23.3238,0.9,per_digital_payment_poor,0.36983928084373474,0.4408663014570872
+Bulgaria,BGR,2017,Upper middle income,1.4,42.7105,23.3238,2.7,per_account_ownership_poor,0.5454768538475037,0.4408663014570872
+Bulgaria,BGR,2017,Upper middle income,1.4,42.7105,23.3238,2.7,per_saving_poor,0.2677675783634186,0.4408663014570872
+Bulgaria,BGR,2017,Upper middle income,1.4,42.7105,23.3238,2.7,per_borrowing_poor,0.3774229884147644,0.4408663014570872
+Bulgaria,BGR,2017,Upper middle income,1.4,42.7105,23.3238,2.7,per_digital_payment_poor,0.4472169876098633,0.4408663014570872
+Bulgaria,BGR,2021,Upper middle income,0.7,42.7105,23.3238,7.7,per_account_ownership_poor,0.7386661767959595,0.4408663014570872
+Bulgaria,BGR,2021,Upper middle income,0.7,42.7105,23.3238,7.7,per_saving_poor,0.336664617061615,0.4408663014570872
+Bulgaria,BGR,2021,Upper middle income,0.7,42.7105,23.3238,7.7,per_borrowing_poor,0.5377143621444702,0.4408663014570872
+Bulgaria,BGR,2021,Upper middle income,0.7,42.7105,23.3238,7.7,per_digital_payment_poor,0.6218341588973999,0.4408663014570872
+Burkina Faso,BFA,2014,Low income,39.6,12.3605,-1.53395,4.3,per_account_ownership_poor,0.06428878754377365,0.2896167985163629
+Burkina Faso,BFA,2014,Low income,39.6,12.3605,-1.53395,4.3,per_saving_poor,0.4234486222267151,0.2896167985163629
+Burkina Faso,BFA,2014,Low income,39.6,12.3605,-1.53395,4.3,per_borrowing_poor,0.4367627501487732,0.2896167985163629
+Burkina Faso,BFA,2014,Low income,39.6,12.3605,-1.53395,4.3,per_digital_payment_poor,0.03269040957093239,0.2896167985163629
+Burkina Faso,BFA,2021,Low income,25.3,12.3605,-1.53395,6.9,per_account_ownership_poor,0.25499099493026733,0.2896167985163629
+Burkina Faso,BFA,2021,Low income,25.3,12.3605,-1.53395,6.9,per_saving_poor,0.409553200006485,0.2896167985163629
+Burkina Faso,BFA,2021,Low income,25.3,12.3605,-1.53395,6.9,per_borrowing_poor,0.46552228927612305,0.2896167985163629
+Burkina Faso,BFA,2021,Low income,25.3,12.3605,-1.53395,6.9,per_digital_payment_poor,0.22967733442783356,0.2896167985163629
+Cameroon,CMR,2014,Lower middle income,25.7,3.8721,11.5174,5.8,per_account_ownership_poor,0.023035479709506035,0.35481044941116124
+Cameroon,CMR,2014,Lower middle income,25.7,3.8721,11.5174,5.8,per_saving_poor,0.5437474250793457,0.35481044941116124
+Cameroon,CMR,2014,Lower middle income,25.7,3.8721,11.5174,5.8,per_borrowing_poor,0.5622546672821045,0.35481044941116124
+Cameroon,CMR,2014,Lower middle income,25.7,3.8721,11.5174,5.8,per_digital_payment_poor,0.011680047027766705,0.35481044941116124
+Cameroon,CMR,2021,Lower middle income,23,3.8721,11.5174,3,per_account_ownership_poor,0.33885592222213745,0.35481044941116124
+Cameroon,CMR,2021,Lower middle income,23,3.8721,11.5174,3,per_saving_poor,0.48899373412132263,0.35481044941116124
+Cameroon,CMR,2021,Lower middle income,23,3.8721,11.5174,3,per_borrowing_poor,0.5419350266456604,0.35481044941116124
+Cameroon,CMR,2021,Lower middle income,23,3.8721,11.5174,3,per_digital_payment_poor,0.32798129320144653,0.35481044941116124
+Canada,CAN,2014,High income,0.2,45.4215,-75.6919,2.9,per_account_ownership_poor,0.9840809106826782,0.88016626983881
+Canada,CAN,2014,High income,0.2,45.4215,-75.6919,2.9,per_saving_poor,0.7591769695281982,0.88016626983881
+Canada,CAN,2014,High income,0.2,45.4215,-75.6919,2.9,per_borrowing_poor,0.8054057955741882,0.88016626983881
+Canada,CAN,2014,High income,0.2,45.4215,-75.6919,2.9,per_digital_payment_poor,0.9533937573432922,0.88016626983881
+Canada,CAN,2017,High income,0.2,45.4215,-75.6919,3,per_account_ownership_poor,0.9977782964706421,0.88016626983881
+Canada,CAN,2017,High income,0.2,45.4215,-75.6919,3,per_saving_poor,0.7080318331718445,0.88016626983881
+Canada,CAN,2017,High income,0.2,45.4215,-75.6919,3,per_borrowing_poor,0.8548223972320557,0.88016626983881
+Canada,CAN,2017,High income,0.2,45.4215,-75.6919,3,per_digital_payment_poor,0.9786401987075806,0.88016626983881
+Chile,CHL,2017,High income,0.4,-33.475,-70.6475,1.4,per_account_ownership_poor,0.6687198877334595,0.5053818002343178
+Chile,CHL,2017,High income,0.4,-33.475,-70.6475,1.4,per_saving_poor,0.4038695693016052,0.5053818002343178
+Chile,CHL,2017,High income,0.4,-33.475,-70.6475,1.4,per_borrowing_poor,0.3860349953174591,0.5053818002343178
+Chile,CHL,2017,High income,0.4,-33.475,-70.6475,1.4,per_digital_payment_poor,0.5629027485847473,0.5053818002343178
+China,CHN,2014,Upper middle income,1.7,40.0495,116.286,7.4,per_account_ownership_poor,0.7264564633369446,0.5597438539067904
+China,CHN,2014,Upper middle income,1.7,40.0495,116.286,7.4,per_saving_poor,0.60859215259552,0.5597438539067904
+China,CHN,2014,Upper middle income,1.7,40.0495,116.286,7.4,per_borrowing_poor,0.38137978315353394,0.5597438539067904
+China,CHN,2014,Upper middle income,1.7,40.0495,116.286,7.4,per_digital_payment_poor,0.3602076470851898,0.5597438539067904
+China,CHN,2017,Upper middle income,0,40.0495,116.286,6.9,per_account_ownership_poor,0.6888458132743835,0.5597438539067904
+China,CHN,2017,Upper middle income,0,40.0495,116.286,6.9,per_saving_poor,0.33044326305389404,0.5597438539067904
+China,CHN,2017,Upper middle income,0,40.0495,116.286,6.9,per_borrowing_poor,0.46580567955970764,0.5597438539067904
+China,CHN,2017,Upper middle income,0,40.0495,116.286,6.9,per_digital_payment_poor,0.5129679441452026,0.5597438539067904
+China,CHN,2021,Upper middle income,0,40.0495,116.286,8.4,per_account_ownership_poor,0.8308147192001343,0.5597438539067904
+China,CHN,2021,Upper middle income,0,40.0495,116.286,8.4,per_saving_poor,0.4801909029483795,0.5597438539067904
+China,CHN,2021,Upper middle income,0,40.0495,116.286,8.4,per_borrowing_poor,0.5385196805000305,0.5597438539067904
+China,CHN,2021,Upper middle income,0,40.0495,116.286,8.4,per_digital_payment_poor,0.7927021980285645,0.5597438539067904
+Colombia,COL,2014,Upper middle income,5.4,4.60987,-74.082,4.5,per_account_ownership_poor,0.24394537508487701,0.3093750774860382
+Colombia,COL,2014,Upper middle income,5.4,4.60987,-74.082,4.5,per_saving_poor,0.3176393210887909,0.3093750774860382
+Colombia,COL,2014,Upper middle income,5.4,4.60987,-74.082,4.5,per_borrowing_poor,0.32770171761512756,0.3093750774860382
+Colombia,COL,2014,Upper middle income,5.4,4.60987,-74.082,4.5,per_digital_payment_poor,0.1951778084039688,0.3093750774860382
+Colombia,COL,2017,Upper middle income,4.3,4.60987,-74.082,1.4,per_account_ownership_poor,0.35019564628601074,0.3093750774860382
+Colombia,COL,2017,Upper middle income,4.3,4.60987,-74.082,1.4,per_saving_poor,0.26869630813598633,0.3093750774860382
+Colombia,COL,2017,Upper middle income,4.3,4.60987,-74.082,1.4,per_borrowing_poor,0.30627667903900146,0.3093750774860382
+Colombia,COL,2017,Upper middle income,4.3,4.60987,-74.082,1.4,per_digital_payment_poor,0.2731228768825531,0.3093750774860382
+Colombia,COL,2021,Upper middle income,7.3,4.60987,-74.082,10.8,per_account_ownership_poor,0.47672155499458313,0.3093750774860382
+Colombia,COL,2021,Upper middle income,7.3,4.60987,-74.082,10.8,per_saving_poor,0.17243123054504395,0.3093750774860382
+Colombia,COL,2021,Upper middle income,7.3,4.60987,-74.082,10.8,per_borrowing_poor,0.38836711645126343,0.3093750774860382
+Colombia,COL,2021,Upper middle income,7.3,4.60987,-74.082,10.8,per_digital_payment_poor,0.3922252953052521,0.3093750774860382
+Costa Rica,CRI,2014,Upper middle income,1.5,9.63701,-84.0089,3.5,per_account_ownership_poor,0.5673710703849792,0.4555880129337311
+Costa Rica,CRI,2014,Upper middle income,1.5,9.63701,-84.0089,3.5,per_saving_poor,0.532619833946228,0.4555880129337311
+Costa Rica,CRI,2014,Upper middle income,1.5,9.63701,-84.0089,3.5,per_borrowing_poor,0.375433087348938,0.4555880129337311
+Costa Rica,CRI,2014,Upper middle income,1.5,9.63701,-84.0089,3.5,per_digital_payment_poor,0.4218197166919708,0.4555880129337311
+Costa Rica,CRI,2017,Upper middle income,1.2,9.63701,-84.0089,4.2,per_account_ownership_poor,0.5803123116493225,0.4555880129337311
+Costa Rica,CRI,2017,Upper middle income,1.2,9.63701,-84.0089,4.2,per_saving_poor,0.4446975886821747,0.4555880129337311
+Costa Rica,CRI,2017,Upper middle income,1.2,9.63701,-84.0089,4.2,per_borrowing_poor,0.2963784635066986,0.4555880129337311
+Costa Rica,CRI,2017,Upper middle income,1.2,9.63701,-84.0089,4.2,per_digital_payment_poor,0.49377602338790894,0.4555880129337311
+Costa Rica,CRI,2021,Upper middle income,1.2,9.63701,-84.0089,7.9,per_account_ownership_poor,0.5723413825035095,0.4555880129337311
+Costa Rica,CRI,2021,Upper middle income,1.2,9.63701,-84.0089,7.9,per_saving_poor,0.39901962876319885,0.4555880129337311
+Costa Rica,CRI,2021,Upper middle income,1.2,9.63701,-84.0089,7.9,per_borrowing_poor,0.33687931299209595,0.4555880129337311
+Costa Rica,CRI,2021,Upper middle income,1.2,9.63701,-84.0089,7.9,per_digital_payment_poor,0.4464077353477478,0.4555880129337311
+Cote d'Ivoire,CIV,2021,Lower middle income,9.7,5.332,-4.0305,7.1,per_account_ownership_poor,0.4401012659072876,0.4333414360880852
+Cote d'Ivoire,CIV,2021,Lower middle income,9.7,5.332,-4.0305,7.1,per_saving_poor,0.4020833671092987,0.4333414360880852
+Cote d'Ivoire,CIV,2021,Lower middle income,9.7,5.332,-4.0305,7.1,per_borrowing_poor,0.47666841745376587,0.4333414360880852
+Cote d'Ivoire,CIV,2021,Lower middle income,9.7,5.332,-4.0305,7.1,per_digital_payment_poor,0.4145126938819885,0.4333414360880852
+Croatia,HRV,2014,High income,1,45.8069,15.9614,-0.3,per_account_ownership_poor,0.789111316204071,0.6194976990421613
+Croatia,HRV,2014,High income,1,45.8069,15.9614,-0.3,per_saving_poor,0.4745592474937439,0.6194976990421613
+Croatia,HRV,2014,High income,1,45.8069,15.9614,-0.3,per_borrowing_poor,0.5626015067100525,0.6194976990421613
+Croatia,HRV,2014,High income,1,45.8069,15.9614,-0.3,per_digital_payment_poor,0.6818880438804626,0.6194976990421613
+Croatia,HRV,2017,High income,0.5,45.8069,15.9614,3.4,per_account_ownership_poor,0.8099702596664429,0.6194976990421613
+Croatia,HRV,2017,High income,0.5,45.8069,15.9614,3.4,per_saving_poor,0.46093156933784485,0.6194976990421613
+Croatia,HRV,2017,High income,0.5,45.8069,15.9614,3.4,per_borrowing_poor,0.4714036285877228,0.6194976990421613
+Croatia,HRV,2017,High income,0.5,45.8069,15.9614,3.4,per_digital_payment_poor,0.7727785706520081,0.6194976990421613
+Croatia,HRV,2021,High income,0.3,45.8069,15.9614,13,per_account_ownership_poor,0.8445939421653748,0.6194976990421613
+Croatia,HRV,2021,High income,0.3,45.8069,15.9614,13,per_saving_poor,0.4130079746246338,0.6194976990421613
+Croatia,HRV,2021,High income,0.3,45.8069,15.9614,13,per_borrowing_poor,0.3832262456417084,0.6194976990421613
+Croatia,HRV,2021,High income,0.3,45.8069,15.9614,13,per_digital_payment_poor,0.7699000835418701,0.6194976990421613
+Cyprus,CYP,2014,High income,0.1,35.1676,33.3736,-1.8,per_account_ownership_poor,0.8800475597381592,0.6061601663629214
+Cyprus,CYP,2014,High income,0.1,35.1676,33.3736,-1.8,per_saving_poor,0.35921838879585266,0.6061601663629214
+Cyprus,CYP,2014,High income,0.1,35.1676,33.3736,-1.8,per_borrowing_poor,0.4957219958305359,0.6061601663629214
+Cyprus,CYP,2014,High income,0.1,35.1676,33.3736,-1.8,per_digital_payment_poor,0.6553204655647278,0.6061601663629214
+Cyprus,CYP,2017,High income,0,35.1676,33.3736,5.7,per_account_ownership_poor,0.8380718231201172,0.6061601663629214
+Cyprus,CYP,2017,High income,0,35.1676,33.3736,5.7,per_saving_poor,0.34414899349212646,0.6061601663629214
+Cyprus,CYP,2017,High income,0,35.1676,33.3736,5.7,per_borrowing_poor,0.4525287449359894,0.6061601663629214
+Cyprus,CYP,2017,High income,0,35.1676,33.3736,5.7,per_digital_payment_poor,0.7241528630256653,0.6061601663629214
+Cyprus,CYP,2021,High income,0,35.1676,33.3736,9.9,per_account_ownership_poor,0.907508373260498,0.6061601663629214
+Cyprus,CYP,2021,High income,0,35.1676,33.3736,9.9,per_saving_poor,0.3074517548084259,0.6061601663629214
+Cyprus,CYP,2021,High income,0,35.1676,33.3736,9.9,per_borrowing_poor,0.5058995485305786,0.6061601663629214
+Cyprus,CYP,2021,High income,0,35.1676,33.3736,9.9,per_digital_payment_poor,0.8038514852523804,0.6061601663629214
+Denmark,DNK,2014,High income,0.2,55.6763,12.5681,1.3,per_account_ownership_poor,1,0.8129618267218272
+Denmark,DNK,2014,High income,0.2,55.6763,12.5681,1.3,per_saving_poor,0.7493638396263123,0.8129618267218272
+Denmark,DNK,2014,High income,0.2,55.6763,12.5681,1.3,per_borrowing_poor,0.5231391787528992,0.8129618267218272
+Denmark,DNK,2014,High income,0.2,55.6763,12.5681,1.3,per_digital_payment_poor,0.9975718855857849,0.8129618267218272
+Denmark,DNK,2017,High income,0.1,55.6763,12.5681,3.1,per_account_ownership_poor,1,0.8129618267218272
+Denmark,DNK,2017,High income,0.1,55.6763,12.5681,3.1,per_saving_poor,0.6637518405914307,0.8129618267218272
+Denmark,DNK,2017,High income,0.1,55.6763,12.5681,3.1,per_borrowing_poor,0.519126296043396,0.8129618267218272
+Denmark,DNK,2017,High income,0.1,55.6763,12.5681,3.1,per_digital_payment_poor,0.9955837726593018,0.8129618267218272
+Denmark,DNK,2021,High income,0.2,55.6763,12.5681,7.4,per_account_ownership_poor,1,0.8129618267218272
+Denmark,DNK,2021,High income,0.2,55.6763,12.5681,7.4,per_saving_poor,0.7173242568969727,0.8129618267218272
+Denmark,DNK,2021,High income,0.2,55.6763,12.5681,7.4,per_borrowing_poor,0.5896808505058289,0.8129618267218272
+Denmark,DNK,2021,High income,0.2,55.6763,12.5681,7.4,per_digital_payment_poor,1,0.8129618267218272
+Dominican Republic,DOM,2014,Upper middle income,3.4,18.479,-69.8908,7.1,per_account_ownership_poor,0.41293686628341675,0.3733805865049362
+Dominican Republic,DOM,2014,Upper middle income,3.4,18.479,-69.8908,7.1,per_saving_poor,0.44106394052505493,0.3733805865049362
+Dominican Republic,DOM,2014,Upper middle income,3.4,18.479,-69.8908,7.1,per_borrowing_poor,0.48719239234924316,0.3733805865049362
+Dominican Republic,DOM,2014,Upper middle income,3.4,18.479,-69.8908,7.1,per_digital_payment_poor,0.29698652029037476,0.3733805865049362
+Dominican Republic,DOM,2017,Upper middle income,1,18.479,-69.8908,4.7,per_account_ownership_poor,0.42115190625190735,0.3733805865049362
+Dominican Republic,DOM,2017,Upper middle income,1,18.479,-69.8908,4.7,per_saving_poor,0.44534099102020264,0.3733805865049362
+Dominican Republic,DOM,2017,Upper middle income,1,18.479,-69.8908,4.7,per_borrowing_poor,0.4014919102191925,0.3733805865049362
+Dominican Republic,DOM,2017,Upper middle income,1,18.479,-69.8908,4.7,per_digital_payment_poor,0.30472350120544434,0.3733805865049362
+Dominican Republic,DOM,2021,Upper middle income,0.9,18.479,-69.8908,12.3,per_account_ownership_poor,0.38881951570510864,0.3733805865049362
+Dominican Republic,DOM,2021,Upper middle income,0.9,18.479,-69.8908,12.3,per_saving_poor,0.24037295579910278,0.3733805865049362
+Dominican Republic,DOM,2021,Upper middle income,0.9,18.479,-69.8908,12.3,per_borrowing_poor,0.37992900609970093,0.3733805865049362
+Dominican Republic,DOM,2021,Upper middle income,0.9,18.479,-69.8908,12.3,per_digital_payment_poor,0.26055753231048584,0.3733805865049362
+Ecuador,ECU,2014,Upper middle income,2.6,-0.229498,-78.5243,4.2,per_account_ownership_poor,0.31040218472480774,0.29057470833261806
+Ecuador,ECU,2014,Upper middle income,2.6,-0.229498,-78.5243,4.2,per_saving_poor,0.25385770201683044,0.29057470833261806
+Ecuador,ECU,2014,Upper middle income,2.6,-0.229498,-78.5243,4.2,per_borrowing_poor,0.2050776481628418,0.29057470833261806
+Ecuador,ECU,2014,Upper middle income,2.6,-0.229498,-78.5243,4.2,per_digital_payment_poor,0.1435844749212265,0.29057470833261806
+Ecuador,ECU,2017,Upper middle income,3.2,-0.229498,-78.5243,6,per_account_ownership_poor,0.33395078778266907,0.29057470833261806
+Ecuador,ECU,2017,Upper middle income,3.2,-0.229498,-78.5243,6,per_saving_poor,0.20101429522037506,0.29057470833261806
+Ecuador,ECU,2017,Upper middle income,3.2,-0.229498,-78.5243,6,per_borrowing_poor,0.25694575905799866,0.29057470833261806
+Ecuador,ECU,2017,Upper middle income,3.2,-0.229498,-78.5243,6,per_digital_payment_poor,0.1721350997686386,0.29057470833261806
+Ecuador,ECU,2021,Upper middle income,3.6,-0.229498,-78.5243,9.8,per_account_ownership_poor,0.5914971232414246,0.29057470833261806
+Ecuador,ECU,2021,Upper middle income,3.6,-0.229498,-78.5243,9.8,per_saving_poor,0.2808172106742859,0.29057470833261806
+Ecuador,ECU,2021,Upper middle income,3.6,-0.229498,-78.5243,9.8,per_borrowing_poor,0.388619601726532,0.29057470833261806
+Ecuador,ECU,2021,Upper middle income,3.6,-0.229498,-78.5243,9.8,per_digital_payment_poor,0.3489946126937866,0.29057470833261806
+"Egypt, Arab Rep.",EGY,2017,Lower middle income,2.5,30.0982,31.2461,4.2,per_account_ownership_poor,0.2032022476196289,0.25407225638628006
+"Egypt, Arab Rep.",EGY,2017,Lower middle income,2.5,30.0982,31.2461,4.2,per_saving_poor,0.20355869829654694,0.25407225638628006
+"Egypt, Arab Rep.",EGY,2017,Lower middle income,2.5,30.0982,31.2461,4.2,per_borrowing_poor,0.47495782375335693,0.25407225638628006
+"Egypt, Arab Rep.",EGY,2017,Lower middle income,2.5,30.0982,31.2461,4.2,per_digital_payment_poor,0.13457025587558746,0.25407225638628006
+El Salvador,SLV,2014,Lower middle income,3.4,13.7034,-89.2073,1.7,per_account_ownership_poor,0.21941789984703064,0.25508763020237285
+El Salvador,SLV,2014,Lower middle income,3.4,13.7034,-89.2073,1.7,per_saving_poor,0.4624018371105194,0.25508763020237285
+El Salvador,SLV,2014,Lower middle income,3.4,13.7034,-89.2073,1.7,per_borrowing_poor,0.39479660987854004,0.25508763020237285
+El Salvador,SLV,2014,Lower middle income,3.4,13.7034,-89.2073,1.7,per_digital_payment_poor,0.17538508772850037,0.25508763020237285
+El Salvador,SLV,2017,Lower middle income,2.2,13.7034,-89.2073,2.2,per_account_ownership_poor,0.19292248785495758,0.25508763020237285
+El Salvador,SLV,2017,Lower middle income,2.2,13.7034,-89.2073,2.2,per_saving_poor,0.3169879615306854,0.25508763020237285
+El Salvador,SLV,2017,Lower middle income,2.2,13.7034,-89.2073,2.2,per_borrowing_poor,0.1893603801727295,0.25508763020237285
+El Salvador,SLV,2017,Lower middle income,2.2,13.7034,-89.2073,2.2,per_digital_payment_poor,0.1457226574420929,0.25508763020237285
+El Salvador,SLV,2021,Lower middle income,3.6,13.7034,-89.2073,11.9,per_account_ownership_poor,0.23083747923374176,0.25508763020237285
+El Salvador,SLV,2021,Lower middle income,3.6,13.7034,-89.2073,11.9,per_saving_poor,0.30718427896499634,0.25508763020237285
+El Salvador,SLV,2021,Lower middle income,3.6,13.7034,-89.2073,11.9,per_borrowing_poor,0.2674335241317749,0.25508763020237285
+El Salvador,SLV,2021,Lower middle income,3.6,13.7034,-89.2073,11.9,per_digital_payment_poor,0.15860135853290558,0.25508763020237285
+Estonia,EST,2014,High income,0.8,59.4392,24.7586,3.3,per_account_ownership_poor,0.9720758199691772,0.7170720547437668
+Estonia,EST,2014,High income,0.8,59.4392,24.7586,3.3,per_saving_poor,0.4276792109012604,0.7170720547437668
+Estonia,EST,2014,High income,0.8,59.4392,24.7586,3.3,per_borrowing_poor,0.449891060590744,0.7170720547437668
+Estonia,EST,2014,High income,0.8,59.4392,24.7586,3.3,per_digital_payment_poor,0.9530509114265442,0.7170720547437668
+Estonia,EST,2017,High income,0.3,59.4392,24.7586,5.6,per_account_ownership_poor,0.9621381759643555,0.7170720547437668
+Estonia,EST,2017,High income,0.3,59.4392,24.7586,5.6,per_saving_poor,0.5586551427841187,0.7170720547437668
+Estonia,EST,2017,High income,0.3,59.4392,24.7586,5.6,per_borrowing_poor,0.2850644886493683,0.7170720547437668
+Estonia,EST,2017,High income,0.3,59.4392,24.7586,5.6,per_digital_payment_poor,0.9471493363380432,0.7170720547437668
+Estonia,EST,2021,High income,0.3,59.4392,24.7586,7.1,per_account_ownership_poor,0.9945825934410095,0.7170720547437668
+Estonia,EST,2021,High income,0.3,59.4392,24.7586,7.1,per_saving_poor,0.6864461898803711,0.7170720547437668
+Estonia,EST,2021,High income,0.3,59.4392,24.7586,7.1,per_borrowing_poor,0.389726847410202,0.7170720547437668
+Estonia,EST,2021,High income,0.3,59.4392,24.7586,7.1,per_digital_payment_poor,0.9784048795700073,0.7170720547437668
+Finland,FIN,2014,High income,0.1,60.1608,24.9525,-0.5,per_account_ownership_poor,1,0.7866462419430414
+Finland,FIN,2014,High income,0.1,60.1608,24.9525,-0.5,per_saving_poor,0.6009650826454163,0.7866462419430414
+Finland,FIN,2014,High income,0.1,60.1608,24.9525,-0.5,per_borrowing_poor,0.6023008823394775,0.7866462419430414
+Finland,FIN,2014,High income,0.1,60.1608,24.9525,-0.5,per_digital_payment_poor,0.9727047681808472,0.7866462419430414
+Finland,FIN,2017,High income,0.1,60.1608,24.9525,3.3,per_account_ownership_poor,0.9946334958076477,0.7866462419430414
+Finland,FIN,2017,High income,0.1,60.1608,24.9525,3.3,per_saving_poor,0.6400595903396606,0.7866462419430414
+Finland,FIN,2017,High income,0.1,60.1608,24.9525,3.3,per_borrowing_poor,0.5181637406349182,0.7866462419430414
+Finland,FIN,2017,High income,0.1,60.1608,24.9525,3.3,per_digital_payment_poor,0.9787270426750183,0.7866462419430414
+Finland,FIN,2021,High income,0,60.1608,24.9525,2.7,per_account_ownership_poor,0.9882409572601318,0.7866462419430414
+Finland,FIN,2021,High income,0,60.1608,24.9525,2.7,per_saving_poor,0.6376532912254333,0.7866462419430414
+Finland,FIN,2021,High income,0,60.1608,24.9525,2.7,per_borrowing_poor,0.5371997356414795,0.7866462419430414
+Finland,FIN,2021,High income,0,60.1608,24.9525,2.7,per_digital_payment_poor,0.9691063165664673,0.7866462419430414
+France,FRA,2014,High income,0,48.8566,2.35097,1,per_account_ownership_poor,0.9448115825653076,0.7443810428182284
+France,FRA,2014,High income,0,48.8566,2.35097,1,per_saving_poor,0.5895920991897583,0.7443810428182284
+France,FRA,2014,High income,0,48.8566,2.35097,1,per_borrowing_poor,0.4904564321041107,0.7443810428182284
+France,FRA,2014,High income,0,48.8566,2.35097,1,per_digital_payment_poor,0.881479024887085,0.7443810428182284
+France,FRA,2017,High income,0,48.8566,2.35097,2.3,per_account_ownership_poor,0.9346917867660522,0.7443810428182284
+France,FRA,2017,High income,0,48.8566,2.35097,2.3,per_saving_poor,0.5008477568626404,0.7443810428182284
+France,FRA,2017,High income,0,48.8566,2.35097,2.3,per_borrowing_poor,0.5095604658126831,0.7443810428182284
+France,FRA,2017,High income,0,48.8566,2.35097,2.3,per_digital_payment_poor,0.9067882299423218,0.7443810428182284
+France,FRA,2021,High income,0.1,48.8566,2.35097,6.8,per_account_ownership_poor,0.984015703201294,0.7443810428182284
+France,FRA,2021,High income,0.1,48.8566,2.35097,6.8,per_saving_poor,0.6820870637893677,0.7443810428182284
+France,FRA,2021,High income,0.1,48.8566,2.35097,6.8,per_borrowing_poor,0.5362696051597595,0.7443810428182284
+France,FRA,2021,High income,0.1,48.8566,2.35097,6.8,per_digital_payment_poor,0.9719727635383606,0.7443810428182284
+Gabon,GAB,2017,Upper middle income,2.5,0.38832,9.45162,0.5,per_account_ownership_poor,0.49829038977622986,0.49009571969509125
+Gabon,GAB,2017,Upper middle income,2.5,0.38832,9.45162,0.5,per_saving_poor,0.4811462461948395,0.49009571969509125
+Gabon,GAB,2017,Upper middle income,2.5,0.38832,9.45162,0.5,per_borrowing_poor,0.5275256037712097,0.49009571969509125
+Gabon,GAB,2017,Upper middle income,2.5,0.38832,9.45162,0.5,per_digital_payment_poor,0.45342063903808594,0.49009571969509125
+Georgia,GEO,2014,Upper middle income,6.1,41.71,44.793,4.1,per_account_ownership_poor,0.2838016152381897,0.32594777022798854
+Georgia,GEO,2014,Upper middle income,6.1,41.71,44.793,4.1,per_saving_poor,0.07402359694242477,0.32594777022798854
+Georgia,GEO,2014,Upper middle income,6.1,41.71,44.793,4.1,per_borrowing_poor,0.3608490228652954,0.32594777022798854
+Georgia,GEO,2014,Upper middle income,6.1,41.71,44.793,4.1,per_digital_payment_poor,0.14752408862113953,0.32594777022798854
+Georgia,GEO,2017,Upper middle income,6.2,41.71,44.793,5.2,per_account_ownership_poor,0.46120503544807434,0.32594777022798854
+Georgia,GEO,2017,Upper middle income,6.2,41.71,44.793,5.2,per_saving_poor,0.08665891736745834,0.32594777022798854
+Georgia,GEO,2017,Upper middle income,6.2,41.71,44.793,5.2,per_borrowing_poor,0.4303995966911316,0.32594777022798854
+Georgia,GEO,2017,Upper middle income,6.2,41.71,44.793,5.2,per_digital_payment_poor,0.38143986463546753,0.32594777022798854
+Georgia,GEO,2021,Upper middle income,5.5,41.71,44.793,10.6,per_account_ownership_poor,0.6244555711746216,0.32594777022798854
+Georgia,GEO,2021,Upper middle income,5.5,41.71,44.793,10.6,per_saving_poor,0.12754908204078674,0.32594777022798854
+Georgia,GEO,2021,Upper middle income,5.5,41.71,44.793,10.6,per_borrowing_poor,0.39765048027038574,0.32594777022798854
+Georgia,GEO,2021,Upper middle income,5.5,41.71,44.793,10.6,per_digital_payment_poor,0.5358163714408875,0.32594777022798854
+Germany,DEU,2014,High income,0,52.5235,13.4115,2.2,per_account_ownership_poor,0.9699110388755798,0.7827574238181114
+Germany,DEU,2014,High income,0,52.5235,13.4115,2.2,per_saving_poor,0.7307420969009399,0.7827574238181114
+Germany,DEU,2014,High income,0,52.5235,13.4115,2.2,per_borrowing_poor,0.4933322072029114,0.7827574238181114
+Germany,DEU,2014,High income,0,52.5235,13.4115,2.2,per_digital_payment_poor,0.9269618391990662,0.7827574238181114
+Germany,DEU,2017,High income,0.2,52.5235,13.4115,2.7,per_account_ownership_poor,0.9812226891517639,0.7827574238181114
+Germany,DEU,2017,High income,0.2,52.5235,13.4115,2.7,per_saving_poor,0.6560059785842896,0.7827574238181114
+Germany,DEU,2017,High income,0.2,52.5235,13.4115,2.7,per_borrowing_poor,0.5436452031135559,0.7827574238181114
+Germany,DEU,2017,High income,0.2,52.5235,13.4115,2.7,per_digital_payment_poor,0.9602383375167847,0.7827574238181114
+Greece,GRC,2014,High income,1.5,37.9792,23.7166,0.5,per_account_ownership_poor,0.8235474228858948,0.5227552484720945
+Greece,GRC,2014,High income,1.5,37.9792,23.7166,0.5,per_saving_poor,0.12786608934402466,0.5227552484720945
+Greece,GRC,2014,High income,1.5,37.9792,23.7166,0.5,per_borrowing_poor,0.3581783175468445,0.5227552484720945
+Greece,GRC,2014,High income,1.5,37.9792,23.7166,0.5,per_digital_payment_poor,0.5352340936660767,0.5227552484720945
+Greece,GRC,2017,High income,0.9,37.9792,23.7166,1.1,per_account_ownership_poor,0.8151774406433105,0.5227552484720945
+Greece,GRC,2017,High income,0.9,37.9792,23.7166,1.1,per_saving_poor,0.09190527349710464,0.5227552484720945
+Greece,GRC,2017,High income,0.9,37.9792,23.7166,1.1,per_borrowing_poor,0.26838722825050354,0.5227552484720945
+Greece,GRC,2017,High income,0.9,37.9792,23.7166,1.1,per_digital_payment_poor,0.6517735123634338,0.5227552484720945
+Greece,GRC,2021,High income,0.6,37.9792,23.7166,8.4,per_account_ownership_poor,0.9164217710494995,0.5227552484720945
+Greece,GRC,2021,High income,0.6,37.9792,23.7166,8.4,per_saving_poor,0.35253793001174927,0.5227552484720945
+Greece,GRC,2021,High income,0.6,37.9792,23.7166,8.4,per_borrowing_poor,0.47689440846443176,0.5227552484720945
+Greece,GRC,2021,High income,0.6,37.9792,23.7166,8.4,per_digital_payment_poor,0.8551394939422607,0.5227552484720945
+Guatemala,GTM,2014,Upper middle income,9.5,14.6248,-90.5328,4.4,per_account_ownership_poor,0.2908363938331604,0.32942327857017517
+Guatemala,GTM,2014,Upper middle income,9.5,14.6248,-90.5328,4.4,per_saving_poor,0.4333009123802185,0.32942327857017517
+Guatemala,GTM,2014,Upper middle income,9.5,14.6248,-90.5328,4.4,per_borrowing_poor,0.4132409989833832,0.32942327857017517
+Guatemala,GTM,2014,Upper middle income,9.5,14.6248,-90.5328,4.4,per_digital_payment_poor,0.1803148090839386,0.32942327857017517
+Honduras,HND,2014,Lower middle income,13.3,15.1333,-87.4667,3.1,per_account_ownership_poor,0.2085501253604889,0.26376067101955414
+Honduras,HND,2014,Lower middle income,13.3,15.1333,-87.4667,3.1,per_saving_poor,0.3058180809020996,0.26376067101955414
+Honduras,HND,2014,Lower middle income,13.3,15.1333,-87.4667,3.1,per_borrowing_poor,0.3668917715549469,0.26376067101955414
+Honduras,HND,2014,Lower middle income,13.3,15.1333,-87.4667,3.1,per_digital_payment_poor,0.14511838555335999,0.26376067101955414
+Honduras,HND,2017,Lower middle income,13.9,15.1333,-87.4667,4.8,per_account_ownership_poor,0.3310072124004364,0.26376067101955414
+Honduras,HND,2017,Lower middle income,13.9,15.1333,-87.4667,4.8,per_saving_poor,0.2797403335571289,0.26376067101955414
+Honduras,HND,2017,Lower middle income,13.9,15.1333,-87.4667,4.8,per_borrowing_poor,0.22434766590595245,0.26376067101955414
+Honduras,HND,2017,Lower middle income,13.9,15.1333,-87.4667,4.8,per_digital_payment_poor,0.24861179292201996,0.26376067101955414
+Hungary,HUN,2014,High income,0.7,47.4984,19.0408,4.2,per_account_ownership_poor,0.665746808052063,0.5063979352513949
+Hungary,HUN,2014,High income,0.7,47.4984,19.0408,4.2,per_saving_poor,0.26265421509742737,0.5063979352513949
+Hungary,HUN,2014,High income,0.7,47.4984,19.0408,4.2,per_borrowing_poor,0.42749279737472534,0.5063979352513949
+Hungary,HUN,2014,High income,0.7,47.4984,19.0408,4.2,per_digital_payment_poor,0.6073314547538757,0.5063979352513949
+Hungary,HUN,2017,High income,0.6,47.4984,19.0408,4.3,per_account_ownership_poor,0.6766965389251709,0.5063979352513949
+Hungary,HUN,2017,High income,0.6,47.4984,19.0408,4.3,per_saving_poor,0.24738255143165588,0.5063979352513949
+Hungary,HUN,2017,High income,0.6,47.4984,19.0408,4.3,per_borrowing_poor,0.26135411858558655,0.5063979352513949
+Hungary,HUN,2017,High income,0.6,47.4984,19.0408,4.3,per_digital_payment_poor,0.6339178085327148,0.5063979352513949
+Hungary,HUN,2021,High income,0.4,47.4984,19.0408,7.1,per_account_ownership_poor,0.8124547004699707,0.5063979352513949
+Hungary,HUN,2021,High income,0.4,47.4984,19.0408,7.1,per_saving_poor,0.4449959099292755,0.5063979352513949
+Hungary,HUN,2021,High income,0.4,47.4984,19.0408,7.1,per_borrowing_poor,0.25235655903816223,0.5063979352513949
+Hungary,HUN,2021,High income,0.4,47.4984,19.0408,7.1,per_digital_payment_poor,0.7843917608261108,0.5063979352513949
+India,IND,2017,Lower middle income,13.4,28.6353,77.225,6.8,per_account_ownership_poor,0.7708294987678528,0.40492212027311325
+India,IND,2017,Lower middle income,13.4,28.6353,77.225,6.8,per_saving_poor,0.22683735191822052,0.40492212027311325
+India,IND,2017,Lower middle income,13.4,28.6353,77.225,6.8,per_borrowing_poor,0.418773353099823,0.40492212027311325
+India,IND,2017,Lower middle income,13.4,28.6353,77.225,6.8,per_digital_payment_poor,0.19786494970321655,0.40492212027311325
+India,IND,2021,Lower middle income,12.9,28.6353,77.225,9.7,per_account_ownership_poor,0.7825276255607605,0.40492212027311325
+India,IND,2021,Lower middle income,12.9,28.6353,77.225,9.7,per_saving_poor,0.15230868756771088,0.40492212027311325
+India,IND,2021,Lower middle income,12.9,28.6353,77.225,9.7,per_borrowing_poor,0.43022435903549194,0.40492212027311325
+India,IND,2021,Lower middle income,12.9,28.6353,77.225,9.7,per_digital_payment_poor,0.26001113653182983,0.40492212027311325
+Indonesia,IDN,2014,Lower middle income,9.7,-6.19752,106.83,5,per_account_ownership_poor,0.2213401198387146,0.39463080031176406
+Indonesia,IDN,2014,Lower middle income,9.7,-6.19752,106.83,5,per_saving_poor,0.5752896070480347,0.39463080031176406
+Indonesia,IDN,2014,Lower middle income,9.7,-6.19752,106.83,5,per_borrowing_poor,0.6005496382713318,0.39463080031176406
+Indonesia,IDN,2014,Lower middle income,9.7,-6.19752,106.83,5,per_digital_payment_poor,0.12054014950990677,0.39463080031176406
+Indonesia,IDN,2017,Lower middle income,4.3,-6.19752,106.83,5.1,per_account_ownership_poor,0.3659576177597046,0.39463080031176406
+Indonesia,IDN,2017,Lower middle income,4.3,-6.19752,106.83,5.1,per_saving_poor,0.5296816825866699,0.39463080031176406
+Indonesia,IDN,2017,Lower middle income,4.3,-6.19752,106.83,5.1,per_borrowing_poor,0.48193708062171936,0.39463080031176406
+Indonesia,IDN,2017,Lower middle income,4.3,-6.19752,106.83,5.1,per_digital_payment_poor,0.21458831429481506,0.39463080031176406
+Indonesia,IDN,2021,Lower middle income,2.9,-6.19752,106.83,3.7,per_account_ownership_poor,0.4693138301372528,0.39463080031176406
+Indonesia,IDN,2021,Lower middle income,2.9,-6.19752,106.83,3.7,per_saving_poor,0.395989328622818,0.39463080031176406
+Indonesia,IDN,2021,Lower middle income,2.9,-6.19752,106.83,3.7,per_borrowing_poor,0.4276425242424011,0.39463080031176406
+Indonesia,IDN,2021,Lower middle income,2.9,-6.19752,106.83,3.7,per_digital_payment_poor,0.3327397108078003,0.39463080031176406
+"Iran, Islamic Rep.",IRN,2014,Lower middle income,0.6,35.6878,51.4447,5,per_account_ownership_poor,0.898988664150238,0.6996917128562927
+"Iran, Islamic Rep.",IRN,2014,Lower middle income,0.6,35.6878,51.4447,5,per_saving_poor,0.30519962310791016,0.6996917128562927
+"Iran, Islamic Rep.",IRN,2014,Lower middle income,0.6,35.6878,51.4447,5,per_borrowing_poor,0.8137658834457397,0.6996917128562927
+"Iran, Islamic Rep.",IRN,2014,Lower middle income,0.6,35.6878,51.4447,5,per_digital_payment_poor,0.821614146232605,0.6996917128562927
+"Iran, Islamic Rep.",IRN,2017,Lower middle income,0.3,35.6878,51.4447,2.8,per_account_ownership_poor,0.9324584603309631,0.6996917128562927
+"Iran, Islamic Rep.",IRN,2017,Lower middle income,0.3,35.6878,51.4447,2.8,per_saving_poor,0.3116814196109772,0.6996917128562927
+"Iran, Islamic Rep.",IRN,2017,Lower middle income,0.3,35.6878,51.4447,2.8,per_borrowing_poor,0.7126323580741882,0.6996917128562927
+"Iran, Islamic Rep.",IRN,2017,Lower middle income,0.3,35.6878,51.4447,2.8,per_digital_payment_poor,0.8772046566009521,0.6996917128562927
+"Iran, Islamic Rep.",IRN,2021,Lower middle income,0.7,35.6878,51.4447,4.7,per_account_ownership_poor,0.8739550709724426,0.6996917128562927
+"Iran, Islamic Rep.",IRN,2021,Lower middle income,0.7,35.6878,51.4447,4.7,per_saving_poor,0.3937576115131378,0.6996917128562927
+"Iran, Islamic Rep.",IRN,2021,Lower middle income,0.7,35.6878,51.4447,4.7,per_borrowing_poor,0.6535500288009644,0.6996917128562927
+"Iran, Islamic Rep.",IRN,2021,Lower middle income,0.7,35.6878,51.4447,4.7,per_digital_payment_poor,0.8014926314353943,0.6996917128562927
+Ireland,IRL,2014,High income,0.4,53.3441,-6.26749,9.3,per_account_ownership_poor,0.9225430488586426,0.7850339710712433
+Ireland,IRL,2014,High income,0.4,53.3441,-6.26749,9.3,per_saving_poor,0.6405656337738037,0.7850339710712433
+Ireland,IRL,2014,High income,0.4,53.3441,-6.26749,9.3,per_borrowing_poor,0.5556650757789612,0.7850339710712433
+Ireland,IRL,2014,High income,0.4,53.3441,-6.26749,9.3,per_digital_payment_poor,0.8550161123275757,0.7850339710712433
+Ireland,IRL,2017,High income,0.2,53.3441,-6.26749,10,per_account_ownership_poor,0.929394006729126,0.7850339710712433
+Ireland,IRL,2017,High income,0.2,53.3441,-6.26749,10,per_saving_poor,0.6419246196746826,0.7850339710712433
+Ireland,IRL,2017,High income,0.2,53.3441,-6.26749,10,per_borrowing_poor,0.5634343028068542,0.7850339710712433
+Ireland,IRL,2017,High income,0.2,53.3441,-6.26749,10,per_digital_payment_poor,0.8919044137001038,0.7850339710712433
+Ireland,IRL,2021,High income,0.1,53.3441,-6.26749,16.3,per_account_ownership_poor,0.9928684234619141,0.7850339710712433
+Ireland,IRL,2021,High income,0.1,53.3441,-6.26749,16.3,per_saving_poor,0.8221421837806702,0.7850339710712433
+Ireland,IRL,2021,High income,0.1,53.3441,-6.26749,16.3,per_borrowing_poor,0.6483583450317383,0.7850339710712433
+Ireland,IRL,2021,High income,0.1,53.3441,-6.26749,16.3,per_digital_payment_poor,0.9565914869308472,0.7850339710712433
+Israel,ISR,2014,High income,0.5,31.7717,35.2035,3.8,per_account_ownership_poor,0.8506932258605957,0.7548351983229319
+Israel,ISR,2014,High income,0.5,31.7717,35.2035,3.8,per_saving_poor,0.5121130347251892,0.7548351983229319
+Israel,ISR,2014,High income,0.5,31.7717,35.2035,3.8,per_borrowing_poor,0.7686114311218262,0.7548351983229319
+Israel,ISR,2014,High income,0.5,31.7717,35.2035,3.8,per_digital_payment_poor,0.7821517586708069,0.7548351983229319
+Israel,ISR,2017,High income,0.5,31.7717,35.2035,4.3,per_account_ownership_poor,0.8569011688232422,0.7548351983229319
+Israel,ISR,2017,High income,0.5,31.7717,35.2035,4.3,per_saving_poor,0.5338142514228821,0.7548351983229319
+Israel,ISR,2017,High income,0.5,31.7717,35.2035,4.3,per_borrowing_poor,0.7515167593955994,0.7548351983229319
+Israel,ISR,2017,High income,0.5,31.7717,35.2035,4.3,per_digital_payment_poor,0.8166084885597229,0.7548351983229319
+Israel,ISR,2021,High income,0.2,31.7717,35.2035,9.5,per_account_ownership_poor,0.8902403116226196,0.7548351983229319
+Israel,ISR,2021,High income,0.2,31.7717,35.2035,9.5,per_saving_poor,0.6637473702430725,0.7548351983229319
+Israel,ISR,2021,High income,0.2,31.7717,35.2035,9.5,per_borrowing_poor,0.7634944915771484,0.7548351983229319
+Israel,ISR,2021,High income,0.2,31.7717,35.2035,9.5,per_digital_payment_poor,0.868130087852478,0.7548351983229319
+Italy,ITA,2014,High income,1.2,41.8955,12.4823,0,per_account_ownership_poor,0.8262797594070435,0.686095284918944
+Italy,ITA,2014,High income,1.2,41.8955,12.4823,0,per_saving_poor,0.4223707914352417,0.686095284918944
+Italy,ITA,2014,High income,1.2,41.8955,12.4823,0,per_borrowing_poor,0.5944763422012329,0.686095284918944
+Italy,ITA,2014,High income,1.2,41.8955,12.4823,0,per_digital_payment_poor,0.6251847743988037,0.686095284918944
+Italy,ITA,2017,High income,1.4,41.8955,12.4823,1.6,per_account_ownership_poor,0.9063109159469604,0.686095284918944
+Italy,ITA,2017,High income,1.4,41.8955,12.4823,1.6,per_saving_poor,0.4210711717605591,0.686095284918944
+Italy,ITA,2017,High income,1.4,41.8955,12.4823,1.6,per_borrowing_poor,0.47279587388038635,0.686095284918944
+Italy,ITA,2017,High income,1.4,41.8955,12.4823,1.6,per_digital_payment_poor,0.8639993071556091,0.686095284918944
+Italy,ITA,2021,High income,0.8,41.8955,12.4823,8.9,per_account_ownership_poor,0.9479102492332458,0.686095284918944
+Italy,ITA,2021,High income,0.8,41.8955,12.4823,8.9,per_saving_poor,0.6754456758499146,0.686095284918944
+Italy,ITA,2021,High income,0.8,41.8955,12.4823,8.9,per_borrowing_poor,0.5506168007850647,0.686095284918944
+Italy,ITA,2021,High income,0.8,41.8955,12.4823,8.9,per_digital_payment_poor,0.9266817569732666,0.686095284918944
+Jamaica,JAM,2021,Upper middle income,0.3,17.9927,-76.792,4.6,per_account_ownership_poor,0.676887035369873,0.45492513105273247
+Jamaica,JAM,2021,Upper middle income,0.3,17.9927,-76.792,4.6,per_saving_poor,0.5495222806930542,0.45492513105273247
+Jamaica,JAM,2021,Upper middle income,0.3,17.9927,-76.792,4.6,per_borrowing_poor,0.21765093505382538,0.45492513105273247
+Jamaica,JAM,2021,Upper middle income,0.3,17.9927,-76.792,4.6,per_digital_payment_poor,0.37564027309417725,0.45492513105273247
+Kazakhstan,KAZ,2014,Upper middle income,0,51.1879,71.4382,4.3,per_account_ownership_poor,0.4472789466381073,0.4629910389582316
+Kazakhstan,KAZ,2014,Upper middle income,0,51.1879,71.4382,4.3,per_saving_poor,0.2193649560213089,0.4629910389582316
+Kazakhstan,KAZ,2014,Upper middle income,0,51.1879,71.4382,4.3,per_borrowing_poor,0.4135796129703522,0.4629910389582316
+Kazakhstan,KAZ,2014,Upper middle income,0,51.1879,71.4382,4.3,per_digital_payment_poor,0.38347575068473816,0.4629910389582316
+Kazakhstan,KAZ,2017,Upper middle income,0,51.1879,71.4382,3.9,per_account_ownership_poor,0.4880588948726654,0.4629910389582316
+Kazakhstan,KAZ,2017,Upper middle income,0,51.1879,71.4382,3.9,per_saving_poor,0.24496378004550934,0.4629910389582316
+Kazakhstan,KAZ,2017,Upper middle income,0,51.1879,71.4382,3.9,per_borrowing_poor,0.4250224530696869,0.4629910389582316
+Kazakhstan,KAZ,2017,Upper middle income,0,51.1879,71.4382,3.9,per_digital_payment_poor,0.44015902280807495,0.4629910389582316
+Kazakhstan,KAZ,2021,Upper middle income,0,51.1879,71.4382,4.1,per_account_ownership_poor,0.8208333253860474,0.4629910389582316
+Kazakhstan,KAZ,2021,Upper middle income,0,51.1879,71.4382,4.1,per_saving_poor,0.3899356722831726,0.4629910389582316
+Kazakhstan,KAZ,2021,Upper middle income,0,51.1879,71.4382,4.1,per_borrowing_poor,0.5059841871261597,0.4629910389582316
+Kazakhstan,KAZ,2021,Upper middle income,0,51.1879,71.4382,4.1,per_digital_payment_poor,0.7772358655929565,0.4629910389582316
+Kenya,KEN,2021,Lower middle income,36.1,-1.27975,36.8126,7.6,per_account_ownership_poor,0.6744951009750366,0.6449413597583771
+Kenya,KEN,2021,Lower middle income,36.1,-1.27975,36.8126,7.6,per_saving_poor,0.5240712761878967,0.6449413597583771
+Kenya,KEN,2021,Lower middle income,36.1,-1.27975,36.8126,7.6,per_borrowing_poor,0.7154608368873596,0.6449413597583771
+Kenya,KEN,2021,Lower middle income,36.1,-1.27975,36.8126,7.6,per_digital_payment_poor,0.6657382249832153,0.6449413597583771
+"Korea, Rep.",KOR,2014,High income,0.2,37.5323,126.957,3.2,per_account_ownership_poor,0.943518340587616,0.749447837471962
+"Korea, Rep.",KOR,2014,High income,0.2,37.5323,126.957,3.2,per_saving_poor,0.5775526165962219,0.749447837471962
+"Korea, Rep.",KOR,2014,High income,0.2,37.5323,126.957,3.2,per_borrowing_poor,0.5823923945426941,0.749447837471962
+"Korea, Rep.",KOR,2014,High income,0.2,37.5323,126.957,3.2,per_digital_payment_poor,0.8384969234466553,0.749447837471962
+"Korea, Rep.",KOR,2017,High income,0.2,37.5323,126.957,3.4,per_account_ownership_poor,0.9214916825294495,0.749447837471962
+"Korea, Rep.",KOR,2017,High income,0.2,37.5323,126.957,3.4,per_saving_poor,0.531475841999054,0.749447837471962
+"Korea, Rep.",KOR,2017,High income,0.2,37.5323,126.957,3.4,per_borrowing_poor,0.6482427716255188,0.749447837471962
+"Korea, Rep.",KOR,2017,High income,0.2,37.5323,126.957,3.4,per_digital_payment_poor,0.8917964696884155,0.749447837471962
+"Korea, Rep.",KOR,2021,High income,0,37.5323,126.957,4.6,per_account_ownership_poor,0.968873918056488,0.749447837471962
+"Korea, Rep.",KOR,2021,High income,0,37.5323,126.957,4.6,per_saving_poor,0.5152163505554199,0.749447837471962
+"Korea, Rep.",KOR,2021,High income,0,37.5323,126.957,4.6,per_borrowing_poor,0.6229499578475952,0.749447837471962
+"Korea, Rep.",KOR,2021,High income,0,37.5323,126.957,4.6,per_digital_payment_poor,0.9513667821884155,0.749447837471962
+Kyrgyz Republic,KGZ,2014,Lower middle income,1,42.8851,74.6057,4,per_account_ownership_poor,0.12156690657138824,0.28328203223645687
+Kyrgyz Republic,KGZ,2014,Lower middle income,1,42.8851,74.6057,4,per_saving_poor,0.24664795398712158,0.28328203223645687
+Kyrgyz Republic,KGZ,2014,Lower middle income,1,42.8851,74.6057,4,per_borrowing_poor,0.37471771240234375,0.28328203223645687
+Kyrgyz Republic,KGZ,2014,Lower middle income,1,42.8851,74.6057,4,per_digital_payment_poor,0.09433140605688095,0.28328203223645687
+Kyrgyz Republic,KGZ,2017,Lower middle income,1.3,42.8851,74.6057,4.7,per_account_ownership_poor,0.35677221417427063,0.28328203223645687
+Kyrgyz Republic,KGZ,2017,Lower middle income,1.3,42.8851,74.6057,4.7,per_saving_poor,0.1394953429698944,0.28328203223645687
+Kyrgyz Republic,KGZ,2017,Lower middle income,1.3,42.8851,74.6057,4.7,per_borrowing_poor,0.30951204895973206,0.28328203223645687
+Kyrgyz Republic,KGZ,2017,Lower middle income,1.3,42.8851,74.6057,4.7,per_digital_payment_poor,0.29895591735839844,0.28328203223645687
+Kyrgyz Republic,KGZ,2021,Lower middle income,0.7,42.8851,74.6057,5.5,per_account_ownership_poor,0.44089117646217346,0.28328203223645687
+Kyrgyz Republic,KGZ,2021,Lower middle income,0.7,42.8851,74.6057,5.5,per_saving_poor,0.22318479418754578,0.28328203223645687
+Kyrgyz Republic,KGZ,2021,Lower middle income,0.7,42.8851,74.6057,5.5,per_borrowing_poor,0.41259637475013733,0.28328203223645687
+Kyrgyz Republic,KGZ,2021,Lower middle income,0.7,42.8851,74.6057,5.5,per_digital_payment_poor,0.3807125389575958,0.28328203223645687
+Latvia,LVA,2014,High income,0.8,56.9465,24.1048,1.9,per_account_ownership_poor,0.865140438079834,0.657317265868187
+Latvia,LVA,2014,High income,0.8,56.9465,24.1048,1.9,per_saving_poor,0.38459184765815735,0.657317265868187
+Latvia,LVA,2014,High income,0.8,56.9465,24.1048,1.9,per_borrowing_poor,0.47541260719299316,0.657317265868187
+Latvia,LVA,2014,High income,0.8,56.9465,24.1048,1.9,per_digital_payment_poor,0.8303682804107666,0.657317265868187
+Latvia,LVA,2017,High income,0.8,56.9465,24.1048,3.3,per_account_ownership_poor,0.8852410316467285,0.657317265868187
+Latvia,LVA,2017,High income,0.8,56.9465,24.1048,3.3,per_saving_poor,0.431549072265625,0.657317265868187
+Latvia,LVA,2017,High income,0.8,56.9465,24.1048,3.3,per_borrowing_poor,0.33302783966064453,0.657317265868187
+Latvia,LVA,2017,High income,0.8,56.9465,24.1048,3.3,per_digital_payment_poor,0.8498042225837708,0.657317265868187
+Latvia,LVA,2021,High income,0.4,56.9465,24.1048,6.7,per_account_ownership_poor,0.9405581951141357,0.657317265868187
+Latvia,LVA,2021,High income,0.4,56.9465,24.1048,6.7,per_saving_poor,0.5667568445205688,0.657317265868187
+Latvia,LVA,2021,High income,0.4,56.9465,24.1048,6.7,per_borrowing_poor,0.4063190519809723,0.657317265868187
+Latvia,LVA,2021,High income,0.4,56.9465,24.1048,6.7,per_digital_payment_poor,0.9190377593040466,0.657317265868187
+Lesotho,LSO,2017,Lower middle income,32.4,-29.5208,27.7167,-2.7,per_account_ownership_poor,0.32393985986709595,0.3396315202116966
+Lesotho,LSO,2017,Lower middle income,32.4,-29.5208,27.7167,-2.7,per_saving_poor,0.31843674182891846,0.3396315202116966
+Lesotho,LSO,2017,Lower middle income,32.4,-29.5208,27.7167,-2.7,per_borrowing_poor,0.4763965904712677,0.3396315202116966
+Lesotho,LSO,2017,Lower middle income,32.4,-29.5208,27.7167,-2.7,per_digital_payment_poor,0.2397528886795044,0.3396315202116966
+Lithuania,LTU,2014,High income,1.3,54.6896,25.2799,3.5,per_account_ownership_poor,0.6912141442298889,0.6061759777367115
+Lithuania,LTU,2014,High income,1.3,54.6896,25.2799,3.5,per_saving_poor,0.42564547061920166,0.6061759777367115
+Lithuania,LTU,2014,High income,1.3,54.6896,25.2799,3.5,per_borrowing_poor,0.4048531949520111,0.6061759777367115
+Lithuania,LTU,2014,High income,1.3,54.6896,25.2799,3.5,per_digital_payment_poor,0.6612005829811096,0.6061759777367115
+Lithuania,LTU,2017,High income,1,54.6896,25.2799,4.3,per_account_ownership_poor,0.7793441414833069,0.6061759777367115
+Lithuania,LTU,2017,High income,1,54.6896,25.2799,4.3,per_saving_poor,0.5550004839897156,0.6061759777367115
+Lithuania,LTU,2017,High income,1,54.6896,25.2799,4.3,per_borrowing_poor,0.4640969932079315,0.6061759777367115
+Lithuania,LTU,2017,High income,1,54.6896,25.2799,4.3,per_digital_payment_poor,0.703894853591919,0.6061759777367115
+Lithuania,LTU,2021,High income,0.3,54.6896,25.2799,6.2,per_account_ownership_poor,0.913343071937561,0.6061759777367115
+Lithuania,LTU,2021,High income,0.3,54.6896,25.2799,6.2,per_saving_poor,0.5556558966636658,0.6061759777367115
+Lithuania,LTU,2021,High income,0.3,54.6896,25.2799,6.2,per_borrowing_poor,0.24880342185497284,0.6061759777367115
+Lithuania,LTU,2021,High income,0.3,54.6896,25.2799,6.2,per_digital_payment_poor,0.8710594773292542,0.6061759777367115
+Luxembourg,LUX,2014,High income,0.1,49.61,6.1296,2.6,per_account_ownership_poor,0.9523907899856567,0.8513870611786842
+Luxembourg,LUX,2014,High income,0.1,49.61,6.1296,2.6,per_saving_poor,0.7437728643417358,0.8513870611786842
+Luxembourg,LUX,2014,High income,0.1,49.61,6.1296,2.6,per_borrowing_poor,0.7946372628211975,0.8513870611786842
+Luxembourg,LUX,2014,High income,0.1,49.61,6.1296,2.6,per_digital_payment_poor,0.9193304181098938,0.8513870611786842
+Luxembourg,LUX,2017,High income,0.3,49.61,6.1296,1.3,per_account_ownership_poor,0.9831727147102356,0.8513870611786842
+Luxembourg,LUX,2017,High income,0.3,49.61,6.1296,1.3,per_saving_poor,0.701781690120697,0.8513870611786842
+Luxembourg,LUX,2017,High income,0.3,49.61,6.1296,1.3,per_borrowing_poor,0.7444281578063965,0.8513870611786842
+Luxembourg,LUX,2017,High income,0.3,49.61,6.1296,1.3,per_digital_payment_poor,0.9715825915336609,0.8513870611786842
+Malaysia,MYS,2021,Upper middle income,0,3.12433,101.684,3.3,per_account_ownership_poor,0.829814612865448,0.6026914864778519
+Malaysia,MYS,2021,Upper middle income,0,3.12433,101.684,3.3,per_saving_poor,0.5881333947181702,0.6026914864778519
+Malaysia,MYS,2021,Upper middle income,0,3.12433,101.684,3.3,per_borrowing_poor,0.2819388508796692,0.6026914864778519
+Malaysia,MYS,2021,Upper middle income,0,3.12433,101.684,3.3,per_digital_payment_poor,0.7108790874481201,0.6026914864778519
+Mali,MLI,2021,Low income,20.8,13.5667,-7.50034,3.1,per_account_ownership_poor,0.37512508034706116,0.40392038971185684
+Mali,MLI,2021,Low income,20.8,13.5667,-7.50034,3.1,per_saving_poor,0.4743301272392273,0.40392038971185684
+Mali,MLI,2021,Low income,20.8,13.5667,-7.50034,3.1,per_borrowing_poor,0.459855318069458,0.40392038971185684
+Mali,MLI,2021,Low income,20.8,13.5667,-7.50034,3.1,per_digital_payment_poor,0.3063710331916809,0.40392038971185684
+Malta,MLT,2014,High income,0,35.9042,14.5189,7.6,per_account_ownership_poor,0.9461816549301147,0.6716814190149307
+Malta,MLT,2014,High income,0,35.9042,14.5189,7.6,per_saving_poor,0.6332062482833862,0.6716814190149307
+Malta,MLT,2014,High income,0,35.9042,14.5189,7.6,per_borrowing_poor,0.3748057782649994,0.6716814190149307
+Malta,MLT,2014,High income,0,35.9042,14.5189,7.6,per_digital_payment_poor,0.724784255027771,0.6716814190149307
+Malta,MLT,2017,High income,0.2,35.9042,14.5189,13,per_account_ownership_poor,0.9465633630752563,0.6716814190149307
+Malta,MLT,2017,High income,0.2,35.9042,14.5189,13,per_saving_poor,0.604965329170227,0.6716814190149307
+Malta,MLT,2017,High income,0.2,35.9042,14.5189,13,per_borrowing_poor,0.3353617489337921,0.6716814190149307
+Malta,MLT,2017,High income,0.2,35.9042,14.5189,13,per_digital_payment_poor,0.8075829744338989,0.6716814190149307
+Mauritius,MUS,2017,Upper middle income,0.1,-20.1605,57.4977,3.9,per_account_ownership_poor,0.8631898164749146,0.5662375241518021
+Mauritius,MUS,2017,Upper middle income,0.1,-20.1605,57.4977,3.9,per_saving_poor,0.5321852564811707,0.5662375241518021
+Mauritius,MUS,2017,Upper middle income,0.1,-20.1605,57.4977,3.9,per_borrowing_poor,0.2844392657279968,0.5662375241518021
+Mauritius,MUS,2017,Upper middle income,0.1,-20.1605,57.4977,3.9,per_digital_payment_poor,0.5851357579231262,0.5662375241518021
+Mexico,MEX,2014,Upper middle income,4,19.427,-99.1276,2.5,per_account_ownership_poor,0.29363033175468445,0.37999778240919113
+Mexico,MEX,2014,Upper middle income,4,19.427,-99.1276,2.5,per_saving_poor,0.5237365961074829,0.37999778240919113
+Mexico,MEX,2014,Upper middle income,4,19.427,-99.1276,2.5,per_borrowing_poor,0.4582180082798004,0.37999778240919113
+Mexico,MEX,2014,Upper middle income,4,19.427,-99.1276,2.5,per_digital_payment_poor,0.24440619349479675,0.37999778240919113
+Moldova,MDA,2014,Upper middle income,0,47.0167,28.8497,5,per_account_ownership_poor,0.11078032106161118,0.37604615402718383
+Moldova,MDA,2014,Upper middle income,0,47.0167,28.8497,5,per_saving_poor,0.3806004226207733,0.37604615402718383
+Moldova,MDA,2014,Upper middle income,0,47.0167,28.8497,5,per_borrowing_poor,0.5008919835090637,0.37604615402718383
+Moldova,MDA,2014,Upper middle income,0,47.0167,28.8497,5,per_digital_payment_poor,0.0964905172586441,0.37604615402718383
+Moldova,MDA,2017,Upper middle income,0,47.0167,28.8497,4.2,per_account_ownership_poor,0.3150981068611145,0.37604615402718383
+Moldova,MDA,2017,Upper middle income,0,47.0167,28.8497,4.2,per_saving_poor,0.43751952052116394,0.37604615402718383
+Moldova,MDA,2017,Upper middle income,0,47.0167,28.8497,4.2,per_borrowing_poor,0.5090934634208679,0.37604615402718383
+Moldova,MDA,2017,Upper middle income,0,47.0167,28.8497,4.2,per_digital_payment_poor,0.2756481170654297,0.37604615402718383
+Moldova,MDA,2021,Upper middle income,0,47.0167,28.8497,13.9,per_account_ownership_poor,0.5443188548088074,0.37604615402718383
+Moldova,MDA,2021,Upper middle income,0,47.0167,28.8497,13.9,per_saving_poor,0.4189954996109009,0.37604615402718383
+Moldova,MDA,2021,Upper middle income,0,47.0167,28.8497,13.9,per_borrowing_poor,0.4333767890930176,0.37604615402718383
+Moldova,MDA,2021,Upper middle income,0,47.0167,28.8497,13.9,per_digital_payment_poor,0.489740252494812,0.37604615402718383
+Mongolia,MNG,2014,Lower middle income,0.3,47.9129,106.937,7.9,per_account_ownership_poor,0.8910905122756958,0.5995431840419769
+Mongolia,MNG,2014,Lower middle income,0.3,47.9129,106.937,7.9,per_saving_poor,0.34756213426589966,0.5995431840419769
+Mongolia,MNG,2014,Lower middle income,0.3,47.9129,106.937,7.9,per_borrowing_poor,0.5376428365707397,0.5995431840419769
+Mongolia,MNG,2014,Lower middle income,0.3,47.9129,106.937,7.9,per_digital_payment_poor,0.6218772530555725,0.5995431840419769
+Montenegro,MNE,2014,Upper middle income,1.6,42.4602,19.2595,1.8,per_account_ownership_poor,0.4639608860015869,0.38555558025836945
+Montenegro,MNE,2014,Upper middle income,1.6,42.4602,19.2595,1.8,per_saving_poor,0.12112607061862946,0.38555558025836945
+Montenegro,MNE,2014,Upper middle income,1.6,42.4602,19.2595,1.8,per_borrowing_poor,0.5288475155830383,0.38555558025836945
+Montenegro,MNE,2014,Upper middle income,1.6,42.4602,19.2595,1.8,per_digital_payment_poor,0.26406610012054443,0.38555558025836945
+Montenegro,MNE,2017,Upper middle income,3.3,42.4602,19.2595,4.7,per_account_ownership_poor,0.6027470827102661,0.38555558025836945
+Montenegro,MNE,2017,Upper middle income,3.3,42.4602,19.2595,4.7,per_saving_poor,0.17149041593074799,0.38555558025836945
+Montenegro,MNE,2017,Upper middle income,3.3,42.4602,19.2595,4.7,per_borrowing_poor,0.42311638593673706,0.38555558025836945
+Montenegro,MNE,2017,Upper middle income,3.3,42.4602,19.2595,4.7,per_digital_payment_poor,0.5090901851654053,0.38555558025836945
+Myanmar,MMR,2017,Lower middle income,2,21.914,95.9562,5.8,per_account_ownership_poor,0.22543983161449432,0.2652077376842499
+Myanmar,MMR,2017,Lower middle income,2,21.914,95.9562,5.8,per_saving_poor,0.2843330502510071,0.2652077376842499
+Myanmar,MMR,2017,Lower middle income,2,21.914,95.9562,5.8,per_borrowing_poor,0.5038588047027588,0.2652077376842499
+Myanmar,MMR,2017,Lower middle income,2,21.914,95.9562,5.8,per_digital_payment_poor,0.04719926416873932,0.2652077376842499
+Netherlands,NLD,2014,High income,0.1,52.3738,4.89095,1.6,per_account_ownership_poor,0.9895608425140381,0.7646093393365542
+Netherlands,NLD,2014,High income,0.1,52.3738,4.89095,1.6,per_saving_poor,0.7187508344650269,0.7646093393365542
+Netherlands,NLD,2014,High income,0.1,52.3738,4.89095,1.6,per_borrowing_poor,0.38811904191970825,0.7646093393365542
+Netherlands,NLD,2014,High income,0.1,52.3738,4.89095,1.6,per_digital_payment_poor,0.9684264063835144,0.7646093393365542
+Netherlands,NLD,2017,High income,0.2,52.3738,4.89095,2.8,per_account_ownership_poor,0.9978854060173035,0.7646093393365542
+Netherlands,NLD,2017,High income,0.2,52.3738,4.89095,2.8,per_saving_poor,0.7199369072914124,0.7646093393365542
+Netherlands,NLD,2017,High income,0.2,52.3738,4.89095,2.8,per_borrowing_poor,0.36869537830352783,0.7646093393365542
+Netherlands,NLD,2017,High income,0.2,52.3738,4.89095,2.8,per_digital_payment_poor,0.9619264602661133,0.7646093393365542
+Netherlands,NLD,2021,High income,0.1,52.3738,4.89095,6.3,per_account_ownership_poor,0.9933162927627563,0.7646093393365542
+Netherlands,NLD,2021,High income,0.1,52.3738,4.89095,6.3,per_saving_poor,0.7193499803543091,0.7646093393365542
+Netherlands,NLD,2021,High income,0.1,52.3738,4.89095,6.3,per_borrowing_poor,0.3747769892215729,0.7646093393365542
+Netherlands,NLD,2021,High income,0.1,52.3738,4.89095,6.3,per_digital_payment_poor,0.9745675325393677,0.7646093393365542
+Nicaragua,NIC,2014,Lower middle income,3.9,12.1475,-86.2734,4.8,per_account_ownership_poor,0.08838483691215515,0.22068278770893812
+Nicaragua,NIC,2014,Lower middle income,3.9,12.1475,-86.2734,4.8,per_saving_poor,0.4129461944103241,0.22068278770893812
+Nicaragua,NIC,2014,Lower middle income,3.9,12.1475,-86.2734,4.8,per_borrowing_poor,0.32198503613471985,0.22068278770893812
+Nicaragua,NIC,2014,Lower middle income,3.9,12.1475,-86.2734,4.8,per_digital_payment_poor,0.05941508337855339,0.22068278770893812
+Niger,NER,2014,Low income,53.6,13.514,2.1073,6.6,per_account_ownership_poor,0.05810213088989258,0.34182328172028065
+Niger,NER,2014,Low income,53.6,13.514,2.1073,6.6,per_saving_poor,0.616202712059021,0.34182328172028065
+Niger,NER,2014,Low income,53.6,13.514,2.1073,6.6,per_borrowing_poor,0.6443161964416504,0.34182328172028065
+Niger,NER,2014,Low income,53.6,13.514,2.1073,6.6,per_digital_payment_poor,0.048672087490558624,0.34182328172028065
+North Macedonia,MKD,2014,Upper middle income,4.5,42.0024,21.4361,3.6,per_account_ownership_poor,0.5983860492706299,0.44569886662065983
+North Macedonia,MKD,2014,Upper middle income,4.5,42.0024,21.4361,3.6,per_saving_poor,0.29108160734176636,0.44569886662065983
+North Macedonia,MKD,2014,Upper middle income,4.5,42.0024,21.4361,3.6,per_borrowing_poor,0.42248231172561646,0.44569886662065983
+North Macedonia,MKD,2014,Upper middle income,4.5,42.0024,21.4361,3.6,per_digital_payment_poor,0.4594864547252655,0.44569886662065983
+North Macedonia,MKD,2017,Upper middle income,4.5,42.0024,21.4361,1.1,per_account_ownership_poor,0.6667263507843018,0.44569886662065983
+North Macedonia,MKD,2017,Upper middle income,4.5,42.0024,21.4361,1.1,per_saving_poor,0.23099841177463531,0.44569886662065983
+North Macedonia,MKD,2017,Upper middle income,4.5,42.0024,21.4361,1.1,per_borrowing_poor,0.3828842341899872,0.44569886662065983
+North Macedonia,MKD,2017,Upper middle income,4.5,42.0024,21.4361,1.1,per_digital_payment_poor,0.5135455131530762,0.44569886662065983
+Norway,NOR,2014,High income,0.1,59.9138,10.7387,2,per_account_ownership_poor,1,0.8926551789045334
+Norway,NOR,2014,High income,0.1,59.9138,10.7387,2,per_saving_poor,0.8748089075088501,0.8926551789045334
+Norway,NOR,2014,High income,0.1,59.9138,10.7387,2,per_borrowing_poor,0.7048665881156921,0.8926551789045334
+Norway,NOR,2014,High income,0.1,59.9138,10.7387,2,per_digital_payment_poor,0.9832834601402283,0.8926551789045334
+Norway,NOR,2017,High income,0.3,59.9138,10.7387,2.5,per_account_ownership_poor,0.9936239719390869,0.8926551789045334
+Norway,NOR,2017,High income,0.3,59.9138,10.7387,2.5,per_saving_poor,0.8618165850639343,0.8926551789045334
+Norway,NOR,2017,High income,0.3,59.9138,10.7387,2.5,per_borrowing_poor,0.7292179465293884,0.8926551789045334
+Norway,NOR,2017,High income,0.3,59.9138,10.7387,2.5,per_digital_payment_poor,0.9936239719390869,0.8926551789045334
+Paraguay,PRY,2017,Upper middle income,1,-25.3005,-57.6362,4.8,per_account_ownership_poor,0.3829595148563385,0.3259561937302351
+Paraguay,PRY,2017,Upper middle income,1,-25.3005,-57.6362,4.8,per_saving_poor,0.1547556221485138,0.3259561937302351
+Paraguay,PRY,2017,Upper middle income,1,-25.3005,-57.6362,4.8,per_borrowing_poor,0.35136762261390686,0.3259561937302351
+Paraguay,PRY,2017,Upper middle income,1,-25.3005,-57.6362,4.8,per_digital_payment_poor,0.3485308587551117,0.3259561937302351
+Paraguay,PRY,2021,Upper middle income,0.7,-25.3005,-57.6362,4,per_account_ownership_poor,0.4783911108970642,0.3259561937302351
+Paraguay,PRY,2021,Upper middle income,0.7,-25.3005,-57.6362,4,per_saving_poor,0.17626525461673737,0.3259561937302351
+Paraguay,PRY,2021,Upper middle income,0.7,-25.3005,-57.6362,4,per_borrowing_poor,0.2655125856399536,0.3259561937302351
+Paraguay,PRY,2021,Upper middle income,0.7,-25.3005,-57.6362,4,per_digital_payment_poor,0.44986698031425476,0.3259561937302351
+Peru,PER,2014,Upper middle income,4.8,-12.0931,-77.0465,2.4,per_account_ownership_poor,0.1572272926568985,0.264760068928202
+Peru,PER,2014,Upper middle income,4.8,-12.0931,-77.0465,2.4,per_saving_poor,0.28214046359062195,0.264760068928202
+Peru,PER,2014,Upper middle income,4.8,-12.0931,-77.0465,2.4,per_borrowing_poor,0.258827805519104,0.264760068928202
+Peru,PER,2014,Upper middle income,4.8,-12.0931,-77.0465,2.4,per_digital_payment_poor,0.10910292714834213,0.264760068928202
+Peru,PER,2017,Upper middle income,4.5,-12.0931,-77.0465,2.5,per_account_ownership_poor,0.2702474594116211,0.264760068928202
+Peru,PER,2017,Upper middle income,4.5,-12.0931,-77.0465,2.5,per_saving_poor,0.2732710838317871,0.264760068928202
+Peru,PER,2017,Upper middle income,4.5,-12.0931,-77.0465,2.5,per_borrowing_poor,0.2532837986946106,0.264760068928202
+Peru,PER,2017,Upper middle income,4.5,-12.0931,-77.0465,2.5,per_digital_payment_poor,0.20188187062740326,0.264760068928202
+Peru,PER,2021,Upper middle income,2.8,-12.0931,-77.0465,13.4,per_account_ownership_poor,0.455363929271698,0.264760068928202
+Peru,PER,2021,Upper middle income,2.8,-12.0931,-77.0465,13.4,per_saving_poor,0.1968361735343933,0.264760068928202
+Peru,PER,2021,Upper middle income,2.8,-12.0931,-77.0465,13.4,per_borrowing_poor,0.33882296085357666,0.264760068928202
+Peru,PER,2021,Upper middle income,2.8,-12.0931,-77.0465,13.4,per_digital_payment_poor,0.3801150619983673,0.264760068928202
+Philippines,PHL,2021,Lower middle income,3,14.5515,121.035,5.7,per_account_ownership_poor,0.3398739695549011,0.383789487183094
+Philippines,PHL,2021,Lower middle income,3,14.5515,121.035,5.7,per_saving_poor,0.35998931527137756,0.383789487183094
+Philippines,PHL,2021,Lower middle income,3,14.5515,121.035,5.7,per_borrowing_poor,0.556488037109375,0.383789487183094
+Philippines,PHL,2021,Lower middle income,3,14.5515,121.035,5.7,per_digital_payment_poor,0.2788066267967224,0.383789487183094
+Poland,POL,2014,High income,0.4,52.26,21.02,3.8,per_account_ownership_poor,0.7132213711738586,0.61544335881869
+Poland,POL,2014,High income,0.4,52.26,21.02,3.8,per_saving_poor,0.3287501633167267,0.61544335881869
+Poland,POL,2014,High income,0.4,52.26,21.02,3.8,per_borrowing_poor,0.414095938205719,0.61544335881869
+Poland,POL,2014,High income,0.4,52.26,21.02,3.8,per_digital_payment_poor,0.5557611584663391,0.61544335881869
+Poland,POL,2017,High income,0.3,52.26,21.02,5.1,per_account_ownership_poor,0.8422105312347412,0.61544335881869
+Poland,POL,2017,High income,0.3,52.26,21.02,5.1,per_saving_poor,0.44336065649986267,0.61544335881869
+Poland,POL,2017,High income,0.3,52.26,21.02,5.1,per_borrowing_poor,0.5097449421882629,0.61544335881869
+Poland,POL,2017,High income,0.3,52.26,21.02,5.1,per_digital_payment_poor,0.7873954176902771,0.61544335881869
+Poland,POL,2021,High income,0.1,52.26,21.02,6.9,per_account_ownership_poor,0.9392392039299011,0.61544335881869
+Poland,POL,2021,High income,0.1,52.26,21.02,6.9,per_saving_poor,0.488744854927063,0.61544335881869
+Poland,POL,2021,High income,0.1,52.26,21.02,6.9,per_borrowing_poor,0.4725075364112854,0.61544335881869
+Poland,POL,2021,High income,0.1,52.26,21.02,6.9,per_digital_payment_poor,0.8902885317802429,0.61544335881869
+Portugal,PRT,2014,High income,0.5,38.7072,-9.13552,0.8,per_account_ownership_poor,0.8017579317092896,0.6036089062690735
+Portugal,PRT,2014,High income,0.5,38.7072,-9.13552,0.8,per_saving_poor,0.42943283915519714,0.6036089062690735
+Portugal,PRT,2014,High income,0.5,38.7072,-9.13552,0.8,per_borrowing_poor,0.39327505230903625,0.6036089062690735
+Portugal,PRT,2014,High income,0.5,38.7072,-9.13552,0.8,per_digital_payment_poor,0.6072877049446106,0.6036089062690735
+Portugal,PRT,2017,High income,0.4,38.7072,-9.13552,3.5,per_account_ownership_poor,0.8746100068092346,0.6036089062690735
+Portugal,PRT,2017,High income,0.4,38.7072,-9.13552,3.5,per_saving_poor,0.4356479346752167,0.6036089062690735
+Portugal,PRT,2017,High income,0.4,38.7072,-9.13552,3.5,per_borrowing_poor,0.40712377429008484,0.6036089062690735
+Portugal,PRT,2017,High income,0.4,38.7072,-9.13552,3.5,per_digital_payment_poor,0.7809143662452698,0.6036089062690735
+Portugal,PRT,2021,High income,0.2,38.7072,-9.13552,5.7,per_account_ownership_poor,0.8762024641036987,0.6036089062690735
+Portugal,PRT,2021,High income,0.2,38.7072,-9.13552,5.7,per_saving_poor,0.49241921305656433,0.6036089062690735
+Portugal,PRT,2021,High income,0.2,38.7072,-9.13552,5.7,per_borrowing_poor,0.30747315287590027,0.6036089062690735
+Portugal,PRT,2021,High income,0.2,38.7072,-9.13552,5.7,per_digital_payment_poor,0.837162435054779,0.6036089062690735
+Russian Federation,RUS,2014,Upper middle income,0.3,55.7558,37.6176,0.7,per_account_ownership_poor,0.6319336891174316,0.5346162344018618
+Russian Federation,RUS,2014,Upper middle income,0.3,55.7558,37.6176,0.7,per_saving_poor,0.37805941700935364,0.5346162344018618
+Russian Federation,RUS,2014,Upper middle income,0.3,55.7558,37.6176,0.7,per_borrowing_poor,0.3648468852043152,0.5346162344018618
+Russian Federation,RUS,2014,Upper middle income,0.3,55.7558,37.6176,0.7,per_digital_payment_poor,0.5161597728729248,0.5346162344018618
+Russian Federation,RUS,2017,Upper middle income,0.3,55.7558,37.6176,1.8,per_account_ownership_poor,0.7023621201515198,0.5346162344018618
+Russian Federation,RUS,2017,Upper middle income,0.3,55.7558,37.6176,1.8,per_saving_poor,0.30502745509147644,0.5346162344018618
+Russian Federation,RUS,2017,Upper middle income,0.3,55.7558,37.6176,1.8,per_borrowing_poor,0.421792209148407,0.5346162344018618
+Russian Federation,RUS,2017,Upper middle income,0.3,55.7558,37.6176,1.8,per_digital_payment_poor,0.6416868567466736,0.5346162344018618
+Russian Federation,RUS,2021,Upper middle income,0.2,55.7558,37.6176,5.9,per_account_ownership_poor,0.8581120371818542,0.5346162344018618
+Russian Federation,RUS,2021,Upper middle income,0.2,55.7558,37.6176,5.9,per_saving_poor,0.23587045073509216,0.5346162344018618
+Russian Federation,RUS,2021,Upper middle income,0.2,55.7558,37.6176,5.9,per_borrowing_poor,0.5296466946601868,0.5346162344018618
+Russian Federation,RUS,2021,Upper middle income,0.2,55.7558,37.6176,5.9,per_digital_payment_poor,0.8298972249031067,0.5346162344018618
+Senegal,SEN,2021,Lower middle income,9.9,14.7247,-17.4734,6.5,per_account_ownership_poor,0.48177018761634827,0.493016816675663
+Senegal,SEN,2021,Lower middle income,9.9,14.7247,-17.4734,6.5,per_saving_poor,0.5169087648391724,0.493016816675663
+Senegal,SEN,2021,Lower middle income,9.9,14.7247,-17.4734,6.5,per_borrowing_poor,0.5341075658798218,0.493016816675663
+Senegal,SEN,2021,Lower middle income,9.9,14.7247,-17.4734,6.5,per_digital_payment_poor,0.43928074836730957,0.493016816675663
+Serbia,SRB,2014,Upper middle income,6.9,44.8024,20.4656,-1.6,per_account_ownership_poor,0.825158417224884,0.5164238102734089
+Serbia,SRB,2014,Upper middle income,6.9,44.8024,20.4656,-1.6,per_saving_poor,0.1706828624010086,0.5164238102734089
+Serbia,SRB,2014,Upper middle income,6.9,44.8024,20.4656,-1.6,per_borrowing_poor,0.39885812997817993,0.5164238102734089
+Serbia,SRB,2014,Upper middle income,6.9,44.8024,20.4656,-1.6,per_digital_payment_poor,0.5577081441879272,0.5164238102734089
+Serbia,SRB,2017,Upper middle income,5.4,44.8024,20.4656,2.1,per_account_ownership_poor,0.6452927589416504,0.5164238102734089
+Serbia,SRB,2017,Upper middle income,5.4,44.8024,20.4656,2.1,per_saving_poor,0.2125077247619629,0.5164238102734089
+Serbia,SRB,2017,Upper middle income,5.4,44.8024,20.4656,2.1,per_borrowing_poor,0.4008239209651947,0.5164238102734089
+Serbia,SRB,2017,Upper middle income,5.4,44.8024,20.4656,2.1,per_digital_payment_poor,0.5615790486335754,0.5164238102734089
+Serbia,SRB,2021,Upper middle income,1.2,44.8024,20.4656,7.7,per_account_ownership_poor,0.8428136110305786,0.5164238102734089
+Serbia,SRB,2021,Upper middle income,1.2,44.8024,20.4656,7.7,per_saving_poor,0.2923065721988678,0.5164238102734089
+Serbia,SRB,2021,Upper middle income,1.2,44.8024,20.4656,7.7,per_borrowing_poor,0.4624030888080597,0.5164238102734089
+Serbia,SRB,2021,Upper middle income,1.2,44.8024,20.4656,7.7,per_digital_payment_poor,0.8269514441490173,0.5164238102734089
+Slovak Republic,SVK,2014,High income,0.7,48.1484,17.1073,2.7,per_account_ownership_poor,0.6986656785011292,0.6464761272072792
+Slovak Republic,SVK,2014,High income,0.7,48.1484,17.1073,2.7,per_saving_poor,0.5474944114685059,0.6464761272072792
+Slovak Republic,SVK,2014,High income,0.7,48.1484,17.1073,2.7,per_borrowing_poor,0.4851434528827667,0.6464761272072792
+Slovak Republic,SVK,2014,High income,0.7,48.1484,17.1073,2.7,per_digital_payment_poor,0.671870231628418,0.6464761272072792
+Slovak Republic,SVK,2017,High income,0.2,48.1484,17.1073,2.9,per_account_ownership_poor,0.7793739438056946,0.6464761272072792
+Slovak Republic,SVK,2017,High income,0.2,48.1484,17.1073,2.9,per_saving_poor,0.49831801652908325,0.6464761272072792
+Slovak Republic,SVK,2017,High income,0.2,48.1484,17.1073,2.9,per_borrowing_poor,0.41691040992736816,0.6464761272072792
+Slovak Republic,SVK,2017,High income,0.2,48.1484,17.1073,2.9,per_digital_payment_poor,0.7277716398239136,0.6464761272072792
+Slovak Republic,SVK,2021,High income,0.1,48.1484,17.1073,4.8,per_account_ownership_poor,0.9083048105239868,0.6464761272072792
+Slovak Republic,SVK,2021,High income,0.1,48.1484,17.1073,4.8,per_saving_poor,0.65269535779953,0.6464761272072792
+Slovak Republic,SVK,2021,High income,0.1,48.1484,17.1073,4.8,per_borrowing_poor,0.4896314740180969,0.6464761272072792
+Slovak Republic,SVK,2021,High income,0.1,48.1484,17.1073,4.8,per_digital_payment_poor,0.8815340995788574,0.6464761272072792
+Slovenia,SVN,2014,High income,0,46.0546,14.5044,2.8,per_account_ownership_poor,0.9573990702629089,0.7125968188047409
+Slovenia,SVN,2014,High income,0,46.0546,14.5044,2.8,per_saving_poor,0.5671659708023071,0.7125968188047409
+Slovenia,SVN,2014,High income,0,46.0546,14.5044,2.8,per_borrowing_poor,0.4778790771961212,0.7125968188047409
+Slovenia,SVN,2014,High income,0,46.0546,14.5044,2.8,per_digital_payment_poor,0.8218470215797424,0.7125968188047409
+Slovenia,SVN,2017,High income,0,46.0546,14.5044,5.2,per_account_ownership_poor,0.9546062350273132,0.7125968188047409
+Slovenia,SVN,2017,High income,0,46.0546,14.5044,5.2,per_saving_poor,0.5753793716430664,0.7125968188047409
+Slovenia,SVN,2017,High income,0,46.0546,14.5044,5.2,per_borrowing_poor,0.41026410460472107,0.7125968188047409
+Slovenia,SVN,2017,High income,0,46.0546,14.5044,5.2,per_digital_payment_poor,0.9357895851135254,0.7125968188047409
+Slovenia,SVN,2021,High income,0,46.0546,14.5044,8.4,per_account_ownership_poor,0.9761740565299988,0.7125968188047409
+Slovenia,SVN,2021,High income,0,46.0546,14.5044,8.4,per_saving_poor,0.48044848442077637,0.7125968188047409
+Slovenia,SVN,2021,High income,0,46.0546,14.5044,8.4,per_borrowing_poor,0.4668036103248596,0.7125968188047409
+Slovenia,SVN,2021,High income,0,46.0546,14.5044,8.4,per_digital_payment_poor,0.9274052381515503,0.7125968188047409
+South Africa,ZAF,2014,Upper middle income,20.5,-25.746,28.1871,1.4,per_account_ownership_poor,0.5635288953781128,0.6254408657550812
+South Africa,ZAF,2014,Upper middle income,20.5,-25.746,28.1871,1.4,per_saving_poor,0.5623013973236084,0.6254408657550812
+South Africa,ZAF,2014,Upper middle income,20.5,-25.746,28.1871,1.4,per_borrowing_poor,0.8574426770210266,0.6254408657550812
+South Africa,ZAF,2014,Upper middle income,20.5,-25.746,28.1871,1.4,per_digital_payment_poor,0.5184904932975769,0.6254408657550812
+Spain,ESP,2014,High income,0.8,40.4167,-3.70327,1.5,per_account_ownership_poor,0.9663520455360413,0.7735324104626974
+Spain,ESP,2014,High income,0.8,40.4167,-3.70327,1.5,per_saving_poor,0.5941680073738098,0.7735324104626974
+Spain,ESP,2014,High income,0.8,40.4167,-3.70327,1.5,per_borrowing_poor,0.6968061923980713,0.7735324104626974
+Spain,ESP,2014,High income,0.8,40.4167,-3.70327,1.5,per_digital_payment_poor,0.912563145160675,0.7735324104626974
+Spain,ESP,2017,High income,0.7,40.4167,-3.70327,2.9,per_account_ownership_poor,0.9308875799179077,0.7735324104626974
+Spain,ESP,2017,High income,0.7,40.4167,-3.70327,2.9,per_saving_poor,0.5186850428581238,0.7735324104626974
+Spain,ESP,2017,High income,0.7,40.4167,-3.70327,2.9,per_borrowing_poor,0.5122329592704773,0.7735324104626974
+Spain,ESP,2017,High income,0.7,40.4167,-3.70327,2.9,per_digital_payment_poor,0.8936174511909485,0.7735324104626974
+Spain,ESP,2021,High income,0.6,40.4167,-3.70327,6.7,per_account_ownership_poor,0.97930908203125,0.7735324104626974
+Spain,ESP,2021,High income,0.6,40.4167,-3.70327,6.7,per_saving_poor,0.737087070941925,0.7735324104626974
+Spain,ESP,2021,High income,0.6,40.4167,-3.70327,6.7,per_borrowing_poor,0.5640500783920288,0.7735324104626974
+Spain,ESP,2021,High income,0.6,40.4167,-3.70327,6.7,per_digital_payment_poor,0.9766302704811096,0.7735324104626974
+Sudan,SDN,2014,Low income,15.3,15.5932,32.5363,4.7,per_account_ownership_poor,0.07527433335781097,0.24092033971101046
+Sudan,SDN,2014,Low income,15.3,15.5932,32.5363,4.7,per_saving_poor,0.32579177618026733,0.24092033971101046
+Sudan,SDN,2014,Low income,15.3,15.5932,32.5363,4.7,per_borrowing_poor,0.5132185220718384,0.24092033971101046
+Sudan,SDN,2014,Low income,15.3,15.5932,32.5363,4.7,per_digital_payment_poor,0.04939672723412514,0.24092033971101046
+Sweden,SWE,2014,High income,0.5,59.3327,18.0645,2.3,per_account_ownership_poor,0.9934186339378357,0.8209101383884748
+Sweden,SWE,2014,High income,0.5,59.3327,18.0645,2.3,per_saving_poor,0.7772552371025085,0.8209101383884748
+Sweden,SWE,2014,High income,0.5,59.3327,18.0645,2.3,per_borrowing_poor,0.623296856880188,0.8209101383884748
+Sweden,SWE,2014,High income,0.5,59.3327,18.0645,2.3,per_digital_payment_poor,0.9814814925193787,0.8209101383884748
+Sweden,SWE,2017,High income,0.2,59.3327,18.0645,1.8,per_account_ownership_poor,0.9966757893562317,0.8209101383884748
+Sweden,SWE,2017,High income,0.2,59.3327,18.0645,1.8,per_saving_poor,0.7459589838981628,0.8209101383884748
+Sweden,SWE,2017,High income,0.2,59.3327,18.0645,1.8,per_borrowing_poor,0.5067686438560486,0.8209101383884748
+Sweden,SWE,2017,High income,0.2,59.3327,18.0645,1.8,per_digital_payment_poor,0.9720866084098816,0.8209101383884748
+Sweden,SWE,2021,High income,0.6,59.3327,18.0645,5.9,per_account_ownership_poor,0.9922106862068176,0.8209101383884748
+Sweden,SWE,2021,High income,0.6,59.3327,18.0645,5.9,per_saving_poor,0.7903832793235779,0.8209101383884748
+Sweden,SWE,2021,High income,0.6,59.3327,18.0645,5.9,per_borrowing_poor,0.49309709668159485,0.8209101383884748
+Sweden,SWE,2021,High income,0.6,59.3327,18.0645,5.9,per_digital_payment_poor,0.9782883524894714,0.8209101383884748
+Switzerland,CHE,2014,High income,0,46.948,7.44821,2.3,per_account_ownership_poor,0.9886733293533325,0.8109960705041885
+Switzerland,CHE,2014,High income,0,46.948,7.44821,2.3,per_saving_poor,0.6781489849090576,0.8109960705041885
+Switzerland,CHE,2014,High income,0,46.948,7.44821,2.3,per_borrowing_poor,0.5755651593208313,0.8109960705041885
+Switzerland,CHE,2014,High income,0,46.948,7.44821,2.3,per_digital_payment_poor,0.9212659597396851,0.8109960705041885
+Switzerland,CHE,2017,High income,0,46.948,7.44821,1.4,per_account_ownership_poor,0.9743823409080505,0.8109960705041885
+Switzerland,CHE,2017,High income,0,46.948,7.44821,1.4,per_saving_poor,0.7871648669242859,0.8109960705041885
+Switzerland,CHE,2017,High income,0,46.948,7.44821,1.4,per_borrowing_poor,0.6176509857177734,0.8109960705041885
+Switzerland,CHE,2017,High income,0,46.948,7.44821,1.4,per_digital_payment_poor,0.9451169371604919,0.8109960705041885
+Thailand,THA,2014,Upper middle income,0.1,13.7308,100.521,1,per_account_ownership_poor,0.713588535785675,0.6191255711019039
+Thailand,THA,2014,Upper middle income,0.1,13.7308,100.521,1,per_saving_poor,0.7586619853973389,0.6191255711019039
+Thailand,THA,2014,Upper middle income,0.1,13.7308,100.521,1,per_borrowing_poor,0.5121620893478394,0.6191255711019039
+Thailand,THA,2014,Upper middle income,0.1,13.7308,100.521,1,per_digital_payment_poor,0.2422298640012741,0.6191255711019039
+Thailand,THA,2017,Upper middle income,0,13.7308,100.521,4.2,per_account_ownership_poor,0.7754670977592468,0.6191255711019039
+Thailand,THA,2017,Upper middle income,0,13.7308,100.521,4.2,per_saving_poor,0.4713634252548218,0.6191255711019039
+Thailand,THA,2017,Upper middle income,0,13.7308,100.521,4.2,per_borrowing_poor,0.4727441966533661,0.6191255711019039
+Thailand,THA,2017,Upper middle income,0,13.7308,100.521,4.2,per_digital_payment_poor,0.5524190664291382,0.6191255711019039
+Thailand,THA,2021,Upper middle income,0,13.7308,100.521,1.6,per_account_ownership_poor,0.9767969250679016,0.6191255711019039
+Thailand,THA,2021,Upper middle income,0,13.7308,100.521,1.6,per_saving_poor,0.4986497163772583,0.6191255711019039
+Thailand,THA,2021,Upper middle income,0,13.7308,100.521,1.6,per_borrowing_poor,0.5367547869682312,0.6191255711019039
+Thailand,THA,2021,Upper middle income,0,13.7308,100.521,1.6,per_digital_payment_poor,0.9186691641807556,0.6191255711019039
+Togo,TGO,2021,Low income,26.6,6.1228,1.2255,6,per_account_ownership_poor,0.3904029428958893,0.42534036189317703
+Togo,TGO,2021,Low income,26.6,6.1228,1.2255,6,per_saving_poor,0.4805300831794739,0.42534036189317703
+Togo,TGO,2021,Low income,26.6,6.1228,1.2255,6,per_borrowing_poor,0.49338826537132263,0.42534036189317703
+Togo,TGO,2021,Low income,26.6,6.1228,1.2255,6,per_digital_payment_poor,0.33704015612602234,0.42534036189317703
+Tunisia,TUN,2021,Lower middle income,0.3,36.7899,10.21,4.7,per_account_ownership_poor,0.3202029764652252,0.33545463532209396
+Tunisia,TUN,2021,Lower middle income,0.3,36.7899,10.21,4.7,per_saving_poor,0.30563175678253174,0.33545463532209396
+Tunisia,TUN,2021,Lower middle income,0.3,36.7899,10.21,4.7,per_borrowing_poor,0.49025702476501465,0.33545463532209396
+Tunisia,TUN,2021,Lower middle income,0.3,36.7899,10.21,4.7,per_digital_payment_poor,0.22572678327560425,0.33545463532209396
+Ukraine,UKR,2014,Lower middle income,0,50.4536,30.5038,-6.6,per_account_ownership_poor,0.4373914301395416,0.422354131937027
+Ukraine,UKR,2014,Lower middle income,0,50.4536,30.5038,-6.6,per_saving_poor,0.30973970890045166,0.422354131937027
+Ukraine,UKR,2014,Lower middle income,0,50.4536,30.5038,-6.6,per_borrowing_poor,0.428180992603302,0.422354131937027
+Ukraine,UKR,2014,Lower middle income,0,50.4536,30.5038,-6.6,per_digital_payment_poor,0.39997628331184387,0.422354131937027
+Ukraine,UKR,2017,Lower middle income,0,50.4536,30.5038,2.4,per_account_ownership_poor,0.5326021313667297,0.422354131937027
+Ukraine,UKR,2017,Lower middle income,0,50.4536,30.5038,2.4,per_saving_poor,0.3184314966201782,0.422354131937027
+Ukraine,UKR,2017,Lower middle income,0,50.4536,30.5038,2.4,per_borrowing_poor,0.44354844093322754,0.422354131937027
+Ukraine,UKR,2017,Lower middle income,0,50.4536,30.5038,2.4,per_digital_payment_poor,0.5089625716209412,0.422354131937027
+United Kingdom,GBR,2014,High income,0.2,51.5002,-0.126236,3.2,per_account_ownership_poor,0.980837345123291,0.8153199950853983
+United Kingdom,GBR,2014,High income,0.2,51.5002,-0.126236,3.2,per_saving_poor,0.5972226858139038,0.8153199950853983
+United Kingdom,GBR,2014,High income,0.2,51.5002,-0.126236,3.2,per_borrowing_poor,0.61478424072265625,0.8153199950853983
+United Kingdom,GBR,2014,High income,0.2,51.5002,-0.126236,3.2,per_digital_payment_poor,0.9548847675323486,0.8153199950853983
+United Kingdom,GBR,2017,High income,0.2,51.5002,-0.126236,2.7,per_account_ownership_poor,0.9447351098060608,0.8153199950853983
+United Kingdom,GBR,2017,High income,0.2,51.5002,-0.126236,2.7,per_saving_poor,0.6121903657913208,0.8153199950853983
+United Kingdom,GBR,2017,High income,0.2,51.5002,-0.126236,2.7,per_borrowing_poor,0.7232145667076111,0.8153199950853983
+United Kingdom,GBR,2017,High income,0.2,51.5002,-0.126236,2.7,per_digital_payment_poor,0.9292510747909546,0.8153199950853983
+United Kingdom,GBR,2021,High income,0.2,51.5002,-0.126236,8.6,per_account_ownership_poor,0.9956840872764587,0.8153199950853983
+United Kingdom,GBR,2021,High income,0.2,51.5002,-0.126236,8.6,per_saving_poor,0.8196746706962585,0.8153199950853983
+United Kingdom,GBR,2021,High income,0.2,51.5002,-0.126236,8.6,per_borrowing_poor,0.6185842752456665,0.8153199950853983
+United Kingdom,GBR,2021,High income,0.2,51.5002,-0.126236,8.6,per_digital_payment_poor,0.9927767515182495,0.8153199950853983
+United States,USA,2014,High income,1.2,38.8895,-77.032,2.5,per_account_ownership_poor,0.876911461353302,0.7612466365098953
+United States,USA,2014,High income,1.2,38.8895,-77.032,2.5,per_saving_poor,0.6404951810836792,0.7612466365098953
+United States,USA,2014,High income,1.2,38.8895,-77.032,2.5,per_borrowing_poor,0.7388898134231567,0.7612466365098953
+United States,USA,2014,High income,1.2,38.8895,-77.032,2.5,per_digital_payment_poor,0.8658949732780457,0.7612466365098953
+United States,USA,2017,High income,1.2,38.8895,-77.032,2.5,per_account_ownership_poor,0.8521856665611267,0.7612466365098953
+United States,USA,2017,High income,1.2,38.8895,-77.032,2.5,per_saving_poor,0.6637207865715027,0.7612466365098953
+United States,USA,2017,High income,1.2,38.8895,-77.032,2.5,per_borrowing_poor,0.6533347964286804,0.7612466365098953
+United States,USA,2017,High income,1.2,38.8895,-77.032,2.5,per_digital_payment_poor,0.8097510933876038,0.7612466365098953
+United States,USA,2021,High income,0.2,38.8895,-77.032,6.1,per_account_ownership_poor,0.9124563932418823,0.7612466365098953
+United States,USA,2021,High income,0.2,38.8895,-77.032,6.1,per_saving_poor,0.6150753498077393,0.7612466365098953
+United States,USA,2021,High income,0.2,38.8895,-77.032,6.1,per_borrowing_poor,0.6198193430900574,0.7612466365098953
+United States,USA,2021,High income,0.2,38.8895,-77.032,6.1,per_digital_payment_poor,0.8864247798919678,0.7612466365098953
+Uruguay,URY,2014,High income,0.2,-34.8941,-56.0675,3.2,per_account_ownership_poor,0.3321130573749542,0.4094800613820553
+Uruguay,URY,2014,High income,0.2,-34.8941,-56.0675,3.2,per_saving_poor,0.284945547580719,0.4094800613820553
+Uruguay,URY,2014,High income,0.2,-34.8941,-56.0675,3.2,per_borrowing_poor,0.4501746892929077,0.4094800613820553
+Uruguay,URY,2014,High income,0.2,-34.8941,-56.0675,3.2,per_digital_payment_poor,0.28020772337913513,0.4094800613820553
+Uruguay,URY,2017,High income,0.1,-34.8941,-56.0675,1.7,per_account_ownership_poor,0.48614728450775146,0.4094800613820553
+Uruguay,URY,2017,High income,0.1,-34.8941,-56.0675,1.7,per_saving_poor,0.2893659174442291,0.4094800613820553
+Uruguay,URY,2017,High income,0.1,-34.8941,-56.0675,1.7,per_borrowing_poor,0.4231965243816376,0.4094800613820553
+Uruguay,URY,2017,High income,0.1,-34.8941,-56.0675,1.7,per_digital_payment_poor,0.43016400933265686,0.4094800613820553
+Uruguay,URY,2021,High income,0.1,-34.8941,-56.0675,5.6,per_account_ownership_poor,0.632294774055481,0.4094800613820553
+Uruguay,URY,2021,High income,0.1,-34.8941,-56.0675,5.6,per_saving_poor,0.2309703677892685,0.4094800613820553
+Uruguay,URY,2021,High income,0.1,-34.8941,-56.0675,5.6,per_borrowing_poor,0.5052347779273987,0.4094800613820553
+Uruguay,URY,2021,High income,0.1,-34.8941,-56.0675,5.6,per_digital_payment_poor,0.5689460635185242,0.4094800613820553
+"Yemen, Rep.",YEM,2014,Low income,19.8,15.352,44.2075,-0.2,per_account_ownership_poor,0.035148803144693375,0.21308624371886253
+"Yemen, Rep.",YEM,2014,Low income,19.8,15.352,44.2075,-0.2,per_saving_poor,0.11720273643732071,0.21308624371886253
+"Yemen, Rep.",YEM,2014,Low income,19.8,15.352,44.2075,-0.2,per_borrowing_poor,0.6806556582450867,0.21308624371886253
+"Yemen, Rep.",YEM,2014,Low income,19.8,15.352,44.2075,-0.2,per_digital_payment_poor,0.01933777704834938,0.21308624371886253
+Zimbabwe,ZWE,2017,Lower middle income,34.2,-17.8312,31.0672,5.2,per_account_ownership_poor,0.43601179122924805,0.44753069430589676
+Zimbabwe,ZWE,2017,Lower middle income,34.2,-17.8312,31.0672,5.2,per_saving_poor,0.4704292416572571,0.44753069430589676
+Zimbabwe,ZWE,2017,Lower middle income,34.2,-17.8312,31.0672,5.2,per_borrowing_poor,0.4657958745956421,0.44753069430589676
+Zimbabwe,ZWE,2017,Lower middle income,34.2,-17.8312,31.0672,5.2,per_digital_payment_poor,0.4178858697414398,0.44753069430589676

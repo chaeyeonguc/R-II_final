@@ -129,10 +129,8 @@ Policy Implications:
 Effective borrowing management and financial education programs could help alleviate poverty among the poorest groups.
 Other financial inclusion activities might need complementary policies to be impactful.
 
- 
-
-```{r}
-
-```
-
+# Text process
+Refer to the research on how microfinance makes enterprises into poverty trap
+Give keyword specific sentiment which is the 10 most used in the paper by each page they are used
+It will help us understand how those keywords were used in the research and give context, and we can selectively read page by looking at its sentiment
 

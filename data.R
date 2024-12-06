@@ -3,6 +3,7 @@ library(httr)
 library(jsonlite)
 library(WDI)
 library(readxl)
+library(sf)
 library(styler)
 style_file("/Users/yeong/Documents/GitHub/R-II_final/data.R")
 
@@ -114,34 +115,38 @@ gdp_clean$year <- as.numeric(gdp_clean$year)
 combined <- combined %>%
   inner_join(gdp_clean, by = c("country code", "year"))
 
-# Write and load the combined dataset
-write_csv(combined, paste0(data_path, "inclusive_poverty_gdp.csv"))
-inclusive_poverty_gdp <- read_csv(paste0(data_path, "inclusive_poverty_gdp.csv"))
+# Reshape the combined dataset longer and write it for further plotting
+inclusive_poverty_gdp_long <- combined %>%
+  pivot_longer(cols = starts_with("per_"), names_to = "metric", values_to = "value") %>%
+  group_by(`country name`) %>%
+  mutate(avg_value = mean(value, na.rm = TRUE))
+
+write_csv(inclusive_poverty_gdp_long, paste0(data_path, "inclusive_poverty_gdp_long.csv"))
 
 # Further exploratory data analysis for the research design
 ## Create a table to look at yearly country counts for the research design
 ## to decide either using panel data or cross sectional data
-total_countries <- n_distinct(inclusive_poverty_gdp$`country name`)
+total_countries <- n_distinct(combined$`country name`)
 
-all_years_countries <- inclusive_poverty_gdp %>%
+all_years_countries <- combined %>%
   group_by(`country name`) %>%
   summarise(year_count = n_distinct(year)) %>%
   filter(year_count == 3) %>%
   nrow()
 
-two_years_countries <- inclusive_poverty_gdp %>%
+two_years_countries <- combined %>%
   group_by(`country name`) %>%
   summarise(year_count = n_distinct(year)) %>%
   filter(year_count == 2) %>%
   nrow()
 
-one_year_countries <- inclusive_poverty_gdp %>%
+one_year_countries <- combined %>%
   group_by(`country name`) %>%
   summarise(year_count = n_distinct(year)) %>%
   filter(year_count == 1) %>%
   nrow()
 
-yearly_country_count <- inclusive_poverty_gdp %>%
+yearly_country_count <- combined %>%
   group_by(year) %>%
   summarise(
     yearly_countries = n_distinct(`country name`)
@@ -157,7 +162,7 @@ view(yearly_country_count)
 
 # Prepare data for the model fitting (fixed-effect panel regression model)
 ## Filter countries having 3 years
-three_years_only <- inclusive_poverty_gdp %>%
+three_years_only <- combined %>%
   group_by(`country name`) %>%
   filter(n_distinct(year) == 3)
 
