@@ -25,8 +25,8 @@ se_clustered <- sqrt(diag(clustered_se))
 stargazer(
   fe_model, 
   se = list(se_clustered),
-  type = "html",
-  out = "model_results.html",
+  type = "latex",
+  out = "model_results.latex",
   dep.var.labels = "Poverty Headcount Ratio", 
   covariate.labels = c(
     "Account Ownership (Income, poorest 40% (% ages 15+))", 
