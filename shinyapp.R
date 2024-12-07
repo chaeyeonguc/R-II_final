@@ -9,7 +9,7 @@ library(plotly)
 library(styler)
 style_file("shinyapp.R")
 
-# Create bar graphs to select a country and year and visualize how financial inclusion
+# Create scattor plots to select a country and year and visualize how financial inclusion
 # for the poor correlates with poverty
 ## Define ui
 ui <- fluidPage(
@@ -91,7 +91,7 @@ server <- function(input, output, session) {
 
 shinyApp(ui = ui, server = server)
 
-# Text process: Create line graphs specific sentiment for the most common words used
+# Text process
 ## Load text from a PDF and turn into a dataframe
 microfinance <- pdf_text("data/Microfinance_poverty_trap.pdf")
 
@@ -205,9 +205,8 @@ server_2 <- function(input, output, session) {
         labs(
           title = paste("Sentiment Trend of", input$keyword_input, "(AFINN)"),
           x = "Page Number",
-          y = "Average Sentiment",
-          caption = "Source: World Bank"
-        ) +
+          y = "Average Sentiment" 
+          ) +
         theme_minimal() +
         theme(
           axis.text.x = element_text(angle = 45, hjust = 1)

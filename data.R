@@ -17,7 +17,7 @@ global_findex_raw <- read_xlsx(path_global_findex,
   sheet = "Data"
 )
 
-## Retrieve World Development Indicators from package (selecting poverty headcount ratio)
+## Retrieve World Development Indicators from package (Extract poverty headcount ratio)
 retrieve_wdi <- function(indicator = "SI.POV.DDAY", start_year = 2010, end_year = 2021) {
   raw_file <- paste0(data_path, "wdi_raw.csv")
 
@@ -53,10 +53,6 @@ gdp_raw <- retrieve_raw_json()
 ## Load the downloaded a shapefile for the world map (used for shinyapp afterwords)
 zipF <- paste0(data_path, "ne_10m_admin_0_countries.zip")
 unzip(zipF, exdir = data_path)
-world_map <- st_read(file.path(
-  data_path,
-  "ne_10m_admin_0_countries.shp"
-))
 
 # Data Cleaning
 ## Global Findex
