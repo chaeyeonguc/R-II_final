@@ -18,7 +18,7 @@ global_findex_raw <- read_xlsx(path_global_findex,
 )
 
 ## Retrieve World Development Indicators from package (Extract poverty headcount ratio)
-retrieve_wdi <- function(indicator = "SI.POV.DDAY", start_year = 2010, end_year = 2021) {
+retrieve_wdi <- function(indicator = "SI.POV.DDAY", start_year = 2014, end_year = 2021) {
   raw_file <- paste0(data_path, "wdi_raw.csv")
 
   if (!file.exists(raw_file)) {
