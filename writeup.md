@@ -51,7 +51,7 @@ $i$: Country.
 $t$: Year.
 $𝛼_𝑖$: Country fixed effects.
 $𝛾_𝑡$: Year fixed effects.
-epsilon(i, t): Error term
+$𝜖_𝑖𝑡$: Error term
 
 ## Visualization
 There are two static plots and shinyapps, respectively. 
