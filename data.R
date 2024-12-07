@@ -5,11 +5,11 @@ library(WDI)
 library(readxl)
 library(sf)
 library(styler)
-style_file("/Users/yeong/Documents/GitHub/R-II_final/data.R")
+style_file("data.R")
 
 # Load and retrieve raw data
 ## Define data folder path
-data_path <- "/Users/yeong/Documents/GitHub/R-II_final/data/"
+data_path <- "data/"
 
 ## Load Global Findex 2021 Database
 path_global_findex <- paste0(data_path, "DatabankWide.xlsx")

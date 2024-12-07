@@ -1,7 +1,7 @@
 ---
 title: "writeup"
-author: "Chaeyeong"
-date: "2024-11-30"
+author: "Chaeyeong Park"
+date: "2024-12-06"
 output:
   word_document: default
   html_document: default
@@ -11,10 +11,30 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+# Introduction (Motivation and Research Question)
+This is the writeup summarizing the final project for Data and Programming for Public Policy II - R Programming. The research is motivated by the global issue and development programs; Persistent poverty in Low-income countries and trends of finance-focused poverty alleviation programs. Despite a global decline in poverty rates over recent 20 years, low-income countries have remained nearly stagnant, trapped into poverty where over 50% of the population continues to struggle for less than $2.15 per day (World Bank. (2024). Poverty and Inequality Platform. World Bank Group. https://pip.worldbank.org/). To address this poverty issue, one of the most popular poverty alleviation program is microfinance, targetting minorities who are inaccessible to financial services and provide complements. This raised curiosity about how financial accessibility can improve poverty such that the research question below is suggested:
+How and what type of financial inclusion for the poor is correlated with poverty levels across countries?
+
+# Data Source
+The research involves five data sources:
+
+1. World Bank Global Findex Database 2021: 4 financial inclusion indicators (account, saving, borrowing, and digital payment) for income, poorest 40% (% ages 15+) across countries in 2014, 2017, and 2021 (directly downloaded its .xlsx from the world bank homepage: https://www.worldbank.org/en/publication/globalfindex/Data, choosing country-level .xlsx file.)
+
+2. World Development Indicators: Poverty headcount ratio (%) (used the package “WDI” in R)
+
+3. IMF Real GDP Growth (retrieved from the API as the .json version from IMF DataMapper API documentation: https://www.imf.org/external/datamapper/api/v1/NGDP_RPCH)
+
+4. Natural Earth: world choropleth map (directly downloaded its .zip file, including the shape version from the natural earth homepage: https://www.naturalearthdata.com/downloads/10m-cultural-vectors/, choosing Admin o - Countries (version 5.1.1))
+
+5. CAN MICROFINANCE UNLOCK A POVERTY TRAP FOR SOME ENTREPRENEURS?: The research paper (directly downloaded its pdf file from the NATIONAL BUREAU of ECONOMIC RESEARCH homepage: https://www.nber.org/papers/w26346)
+
+You can see the detailed data processing in data.R.
+
+# Methodology
+This study employs a quantitative, correlational research method with panel data mainly sourced from World Bank. It is hypothesized that there is a negative correlation between financial inclusion percentages for the poor and poverty headcount ratio. Due to year variation across countries, the analysis uses panel data across 47 countries among a total of 89 countries, which have all years (2014, 2017 , and 2021) data. A Fixed-Effects panel regression model controls unobserved time-invariant characteristics at the country level, with clustered standard errors to account for correlation within countries over time. This design enables to apply fixed-effect for a balanced panel, which provides robust insights into the temporal relationships between financial inclusion variables and poverty across years and controls for country-level unobserved heterogenity. However, as the sample size was reduced, it potentially limits the generalizability of results.
 
 # Research Design
-Research Question
-How is financial inclusion (e.g., account ownership, saving, borrowing, and digital payments) related to poverty levels across countries with complete data for 2014, 2017, and 2021?
+rty levels across countries with complete data for 2014, 2017, and 2021?
 Research Objectives
 To examine the correlation between financial inclusion variables and poverty levels.
 To control for economic factors like GDP and assess their moderating effect on poverty.
@@ -43,22 +63,9 @@ t: Year.
 𝛾𝑡: Year fixed effects.
 𝜖𝑖𝑡: Error term
 
-1. Balanced Panel Data Analysis
-Focus your analysis on the 47 countries with data for all three years.
-This design enables you to apply fixed-effects or random-effects models for a balanced panel, which provides robust insights into the temporal relationships between financial inclusion variables and poverty across years.
-Advantages:
-Robust temporal and cross-sectional comparisons.
-Controls for country-level unobserved heterogeneity.
-Disadvantages:
-Reduces the sample size, potentially limiting the generalizability of results.
+
 Implementation:
 
-필터링하는 경우 (3개 연도 데이터로 제한):
-장점:
-균형 패널 데이터를 사용해 분석이 간결하고 해석이 명확합니다.
-모든 국가가 동일한 연도 데이터를 가지므로 결과의 비교가 더 직관적입니다.
-단점:
-일부 국가의 데이터를 제외하면 샘플 크기가 줄어들어 통계적 검정력이 약해질 수 있습니다.
 
 1. Overall Model Insights
 Dependent Variable: Poverty Headcount Ratio (poverty rate).
@@ -86,6 +93,7 @@ Interpretation:
 Account ownership for the poorest 40% shows a positive relationship with poverty rates (poverty increases as account ownership rises), but the result is not statistically significant.
 No robust conclusion can be drawn about the effect of account ownership on poverty.
 (b) Savings (Income, poorest 40%)
+
 Coefficient: 0.757
 Standard Error: (1.200)
 p-value: Not significant.
@@ -129,8 +137,10 @@ Policy Implications:
 Effective borrowing management and financial education programs could help alleviate poverty among the poorest groups.
 Other financial inclusion activities might need complementary policies to be impactful.
 
-# Text process
+# Further research
+Text process is involved
 Refer to the research on how microfinance makes enterprises into poverty trap
 Give keyword specific sentiment which is the 10 most used in the paper by each page they are used
 It will help us understand how those keywords were used in the research and give context, and we can selectively read page by looking at its sentiment
 
+# Conclusion and implications

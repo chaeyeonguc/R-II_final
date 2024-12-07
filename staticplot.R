@@ -1,7 +1,7 @@
 library(tidyverse)
 library(sf)
 library(styler)
-style_file("/Users/yeong/Documents/GitHub/R-II_final/staticplot.R")
+style_file("staticplot.R")
 
 inclusive_poverty_gdp_long <- read_csv("data/inclusive_poverty_gdp_long.csv")
 

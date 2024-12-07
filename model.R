@@ -3,7 +3,7 @@ library(plm)
 library(stargazer)
 library(lmtest)
 library(styler)
-style_file("/Users/yeong/Documents/GitHub/R-II_final/data.R")
+style_file("model.R")
 
 # Load the prepared dataset
 data <- read_csv("data/inclusive_poverty_gdp_model.csv")

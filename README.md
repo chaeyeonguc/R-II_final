@@ -8,7 +8,7 @@ Required R packages: tidyverse, httr, jsonlite, WDI, readxl, sf, pdftools, tidyt
 
 Version of R used: 2023-03-15 (Version 4.2.3)
 
-Summary of code: There are several r scripts to be reviewed:
+Summary of code: This is R II programming final project to investigate how and what types of financial inclusion for the poor are correlated with poverty levels across countries. There are several r scripts to be reviewed:
 
 data.R contains any data loading, retrieval, and wrangling for further plotting and model fitting. The number of datasets are 4:
 
@@ -24,11 +24,11 @@ static plot.R contains two static plots: "plot_financial_inclusion_by_poverty" a
 
 shinyapp.R contains two shiny apps. The first app shows scatter plots allowing to select a country and year and visualize how financial inclusion for the poor correlates with poverty. The second app is text process with the pdf file "Microfinance_poverty_trap.pdf", the research "CAN MICROFINANCE UNLOCK A POVERTY TRAP FOR SOME ENTREPRENEURS?". After loading the text from the pdf and turned into a dataframe, the app was created for line graphs showing keywords specific sentiment. The keywords were selected for the most 10 common words used in the paper. The app allows users to select one over 10 keywords, and shows its sentiment trend across page numbers, which is estimated by AFINN. The first page and reference pages are omitted in the graph.
 
-model.R contains results of the fixed-effect panel regression. Due to year variances across countries, the model uses the dataset "inclusive_poverty_gdp_model" filtering countries having all 2014, 2017, and 2021 data only for the balance. The model analyzes the correlations between the poverty head count ratio and 4 financial inclusions indicators with control variable, the real GDP growth, the fixed effect and clustered standard error in country-level. The results show that a 10 percentage point increase in borrowing is associated with an increase of 0.3524 percentage points in the poverty rate at 10% significance level while coefficients for other indicators are not statistically significant. 
+model.R contains results of the fixed-effect panel regression. Due to year variances across countries, the model uses the dataset "inclusive_poverty_gdp_model" filtering countries having all 2014, 2017, and 2021 data only for the balance. The model analyzes the correlations between the poverty head count ratio and 4 financial inclusions indicators with control variable, the real GDP growth, the fixed effect and clustered standard error in country-level. The results show that a 10 percentage point increase in borrowing is associated with an increase of 0.3524 percentage points in the poverty rate at 10% significance level while coefficients for other indicators are not statistically significant. For futher research, text process was involved to explore how debt managment among the poor is negatively associated with the poverty.
 
 Note: textprocess.R has no contant, as it is written in the shinyapp.R instead.
 
-The R file should be run in order from top to bottom. Note that the current directory in R needs to be set to the directory containing the R-II_final folder. 
+All R files should be run in order from top to bottom. Note that the current directory in R needs to be set to the directory containing the R-II_final folder.
 
 Explanation of original data source: 
 
