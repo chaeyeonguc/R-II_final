@@ -33,17 +33,16 @@ This study employs a quantitative, correlational research method with panel data
 ## Research Design
 The research is designed for Fixed-Effects panel regression model. Its formula is as follows:
 
-$$
-\text{Poverty\_Headcount\_Ratio}_{it} = \beta_0 + \beta_1(\text{Account\_Ownership}_{it}) + \beta_2(\text{Savings}_{it}) + \beta_3(\text{Borrowing}_{it}) + \beta_4(\text{Digital\_Payments}_{it}) + \beta_5(\text{GDP}_{it}) + \alpha_i + \gamma_t + \epsilon_{it}
-$$
+Poverty_Headcount_Ratio_it = β0 + β1(Account_Ownership_it) + β2(Savings_it) + β3(Borrowing_it) + β4(Digital_Payments_it) + β5(GDP_it) + α_i + γ_t + ε_it
+
 Dependent Variable:
-Poverty Level: poverty_headcount_ratio
+Poverty Level: Poverty_Headcount_Ratio
 
 Independent Variables (Financial Inclusion):
-per_account_ownership_poor: Percentage of account ownership among income, poorest 40% (% ages 15+). 
-per_saving_poor: Percentage of those saved any money, among income, poorest 40% (% ages 15+).
-per_borrowing_poor: Percentage of those borrowed any money among income, poorest 40% (% ages 15+).
-per_digital_payment_poor: Percentage of those Made or received a digital payment among income, poorest 40% (% ages 15+).
+Account_Onership: Percentage of account ownership among income, poorest 40% (% ages 15+). 
+Savings: Percentage of those saved any money, among income, poorest 40% (% ages 15+).
+Borrowing: Percentage of those borrowed any money among income, poorest 40% (% ages 15+).
+Digital_Payments: Percentage of those Made or received a digital payment among income, poorest 40% (% ages 15+).
 
 Control Variables:
 Real GDP Growth
@@ -52,7 +51,7 @@ $i$: Country.
 $t$: Year.
 $𝛼_𝑖$: Country fixed effects.
 $𝛾_𝑡$: Year fixed effects.
-$𝜖_𝑖$$_𝑡$: Error term
+\(\epsilon_{i,t}\): Error term
 
 ## Visualization
 There are two static plots and shinyapps, respectively. 
